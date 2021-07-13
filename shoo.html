@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html>
+  <body>
+    <p id="shoo"></p>
+    <script>
+        var start = Date.parse('12 Oct 2019 00:00:00 GMT');
+        var now = Date.now();
+        var msDiff = now - start
+
+        var minutesInMonth = 43800
+        var msInMonth = minutesInMonth * 60 * 1000
+        document.getElementById("shoo").innerHTML = String(msDiff / msInMonth) + " months";
+    </script>
+  </body>
+</html>
