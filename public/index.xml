@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stephen&#39;s Site</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content on Stephen&#39;s Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Nov 2018 18:00:10 -0700</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Quick Dive Into Pythons Slots</title>
+      <link>//localhost:1313/posts/a-quick-dive-into-pythons-slots/</link>
+      <pubDate>Fri, 09 Nov 2018 18:00:10 -0700</pubDate>
+      <guid>//localhost:1313/posts/a-quick-dive-into-pythons-slots/</guid>
+      <description>&lt;p&gt;&lt;em&gt;The original version of this article was posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/a-quick-dive-into-pythons-slots-72cdc2d334e&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For my first Medium article, we’re going to go into a quick and easy way to speed up your Python code (and pass those pesky HackerRank tests where you’re just a bit short on time!), as well as some of the technical implementation details for the curious.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
