@@ -1,6 +1,6 @@
 baseURL = "stephenjayakar.com"
 languageCode = 'en-us'
-title = "Stephen's Site"
+title = "Hi, I'm Stephen 👋"
 
 [taxonomies]
   category = 'categories'
@@ -64,3 +64,45 @@ title = "Stephen's Site"
     # Add hugo_stats.json to Hugo's server watcher
     source = "hugo_stats.json"
     target = "assets/watching/hugo_stats.json"
+
+[params]
+  # dark or light, defaults to light. Local storage and OS preference override this param. For more details see: 
+  # https://github.com/schnerring/hugo-theme-gruvbox/issues/34#issuecomment-1235870375
+  defaultTheme = "light"
+  # gray red green yellow blue purple aqua orange, defaults to blue
+  themeColor = "orange"
+  # soft medium hard, defaults to medium
+  themeContrast = "hard"
+  author = "Stephen Jayakar"
+  subtitle = "Test Update"
+  description = "Update Description"
+
+  [params.logo]
+    text = "stephenjayakar.com"
+    url = "/"
+
+  [params.prism]
+    languages = [
+      "markup",
+      "css",
+      "clike",
+      "javascript",
+      "bash",
+      "diff",
+      "toml",
+      "python"
+    ]
+    plugins = [
+      "normalize-whitespace",
+      "toolbar",
+      "copy-to-clipboard",
+      "line-numbers",
+      "command-line",
+      "diff-highlight"
+    ]
+
+
+  [params.tagCloud]
+    enable = true
+    minFontSizeRem = 0.8
+    maxFontSizeRem = 2.0

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Stephen Jayakar",
+    "label": "Software Engineer",
+    "image": "https://i.imgur.com/tdPHkqk.png",
+    "summary": "I'm a driven software engineer that dreams of ways to make my life more delightful and efficient. Outside of tech, I also love reading and diving deeper and deeper into Christianity.",
+    "location": {
+      "city": "San Francisco"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "url": "https://github.com/stephenjayakar"
+      },
+      {
+        "network": "X",
+        "url": "https://x.com/stephenjayakar"
+      },
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/stephenjayakar"
+      }
+    ]
+  },
+  "work": [],
+  "education": [],
+  "skills": [],
+  "languages": [],
+  "projects": [],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

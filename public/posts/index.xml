@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Stephen&#39;s Site</title>
+    <title>Posts on Hi, I&#39;m Stephen 👋</title>
     <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on Stephen&#39;s Site</description>
+    <description>Recent content in Posts on Hi, I&#39;m Stephen 👋</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Nov 2018 18:00:10 -0700</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Quick Dive Into Pythons Slots</title>
+      <title>A Quick Dive Into Python&#39;s Slots</title>
       <link>//localhost:1313/posts/a-quick-dive-into-pythons-slots/</link>
       <pubDate>Fri, 09 Nov 2018 18:00:10 -0700</pubDate>
       <guid>//localhost:1313/posts/a-quick-dive-into-pythons-slots/</guid>
