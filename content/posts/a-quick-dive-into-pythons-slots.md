@@ -5,7 +5,7 @@ draft = true
 tags = ['tech']
 +++
 
-_The original version of this article was posted [on Medium](https://medium.com/@stephenjayakar/a-quick-dive-into-pythons-slots-72cdc2d334e)_.
+_Originally posted [on Medium](https://medium.com/@stephenjayakar/a-quick-dive-into-pythons-slots-72cdc2d334e)_.
 
 For my first Medium article, we’re going to go into a quick and easy way to speed up your Python code (and pass those pesky HackerRank tests where you’re just a bit short on time!), as well as some of the technical implementation details for the curious.
 
