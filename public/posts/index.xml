@@ -6,14 +6,28 @@
     <description>Recent content in Posts on Hi, I&#39;m Stephen 👋</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Nov 2018 18:00:10 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 08 Sep 2024 21:18:22 -0700</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The first use of YHWH in the Bible is pretty odd</title>
+      <link>//localhost:1313/posts/the-first-use-of-yhwh-in-the-bible/</link>
+      <pubDate>Sun, 08 Sep 2024 21:18:22 -0700</pubDate>
+      <guid>//localhost:1313/posts/the-first-use-of-yhwh-in-the-bible/</guid>
+      <description>&lt;p&gt;You know the first verse of the Bible, right?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In the beginning, God created the heavens and the earth.&#xA;Gen 1:1 NET&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The word for God here is &lt;code&gt;Elohim&lt;/code&gt;. There are some interesting tidbits about this:&lt;/p&gt;&#xA;&lt;p&gt;The noun is in its plural form. Singular would be &lt;code&gt;Eloah&lt;/code&gt;. While this seems really controversial, in most of the usages, it’s paired with a singular verb. AKA “created” up there is masculine singular. So it’s often interpreted as a majestic plural.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yom: Examining Creations Timeframe With Linguistics</title>
+      <link>//localhost:1313/posts/yom-examining-creations-timeframe-with-linguistics/</link>
+      <pubDate>Wed, 14 Jun 2023 21:07:37 -0700</pubDate>
+      <guid>//localhost:1313/posts/yom-examining-creations-timeframe-with-linguistics/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://excitedchristianrambles.substack.com/p/yom-examining-creations-timeframe&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ve often encountered Christians that believe the world was created in 7 24-hour days, because “that’s what the Bible says” in Genesis 1 and they won’t believe otherwise.&lt;/p&gt;&#xA;&lt;p&gt;There are a ton of arguments against this “fact,” but I think the most compelling one is &lt;strong&gt;the linguistic ambiguity for the word “day” (&lt;/strong&gt;&lt;code&gt;yom&lt;/code&gt;&lt;strong&gt;) used in the creation account&lt;/strong&gt;. First, let’s take a look at an English translation for one of the days of creation:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>A Quick Dive Into Python&#39;s Slots</title>
       <link>//localhost:1313/posts/a-quick-dive-into-pythons-slots/</link>
       <pubDate>Fri, 09 Nov 2018 18:00:10 -0700</pubDate>
       <guid>//localhost:1313/posts/a-quick-dive-into-pythons-slots/</guid>
-      <description>&lt;p&gt;&lt;em&gt;The original version of this article was posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/a-quick-dive-into-pythons-slots-72cdc2d334e&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For my first Medium article, we’re going to go into a quick and easy way to speed up your Python code (and pass those pesky HackerRank tests where you’re just a bit short on time!), as well as some of the technical implementation details for the curious.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/a-quick-dive-into-pythons-slots-72cdc2d334e&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For my first Medium article, we’re going to go into a quick and easy way to speed up your Python code (and pass those pesky HackerRank tests where you’re just a bit short on time!), as well as some of the technical implementation details for the curious.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
