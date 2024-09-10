@@ -2,8 +2,23 @@
 <html
   lang="en"
   data-theme="light"
->
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  >
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    }
+  };
+</script>
+
+
+  
+</head>
+  <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -98,7 +113,7 @@ edit: this blogpost was initially wrong when I published it. Thanks to some comm
 edit: this blogpost was initially wrong when I published it. Thanks to some comments I got, I learned I didn’t fully understand TrueTime or Spanner — I’ve spent some time learning and understanding the core concept again, and have updated this artifact. This is an externalized resource for me that I hope can be helpful for others.">
   <meta itemprop="datePublished" content="2023-06-04T14:41:15-07:00">
   <meta itemprop="dateModified" content="2023-06-04T14:41:15-07:00">
-  <meta itemprop="wordCount" content="292">
+  <meta itemprop="wordCount" content="865">
   <meta itemprop="keywords" content="Tech">
 
 
@@ -1795,31 +1810,6 @@ aside.toc ul {
 
   
   
-  
-  <link
-    rel="stylesheet"
-    href="/katex/dist/katex.min.css"
-    
-    crossorigin="anonymous"
-  />
-
-  
-  <script
-    defer
-    src="/katex/dist/katex.min.js"
-    
-    crossorigin="anonymous"
-  ></script>
-
-  
-  <script
-    defer
-    src="/katex/dist/contrib/auto-render.min.js"
-    
-    crossorigin="anonymous"
-    onload="renderMathInElement(document.body);"
-  ></script>
-
 
 </head>
 
@@ -2011,9 +2001,92 @@ aside.toc ul {
 
 
 </p>
-<p>So given nodes A and B with TXNs, and given:</p>
-<p>$$T_A, T_B| T_A &lt; T_B$$</p>
-<p>Then Meow</p>
+<p>So given nodes A and B with TXNs, and given \(T_A, T_B| T_A < T_B\), where \(T_A\) and \(T_B\) are transactions on nodes A and B, and the &lt; sign indicates that “transaction A precedes transaction B,” if we were to attempt to globally order the TXNs based on <strong>reported timestamp</strong>, we’d conclude that \(T_B < T_A\).</p>
+<p>This breaks causality. Imagine \(T_B\) depended on \(T_A\); e.g. \(T_B\) was a message reply to \(T_A\). So even if we were to have global agreement on the ordering of transactions, if we use the local timestamps that node A and B generate, the ordering will be incorrect.</p>
+<p>Clocks aren’t just slightly inaccurate. They’re like 100s of milliseconds inaccurate, which can lead to large windows where causality will be broken.</p>
+<hr>
+<p>So imagine we were able to somehow guarantee that all the clocks are \(\pm\) 3.5ms of the actual time. So <em>all clocks</em> in the system are 7ms of each other (we’ll call this <code>e</code>. Google actually has this guarantee with the use of GPS + atomic clocks).</p>
+<p>
+
+
+
+  
+  
+  <img
+    src="/images/truetime-2.jpg"
+    alt="truetime 2"
+    
+    loading="lazy"
+    width="2000"
+    height="560"
+  />
+
+
+
+
+
+
+</p>
+<p>Given this, we can actually generate a total ordering even with clocks that are off. First, instead of storing just one number as the timestamp for a transaction, every transaction has a <code>[start, end]</code> bound. <code>end - start = e</code>, and the actual timestamp &amp; the local timestamp are both within the range. Let’s revisit our previous example, but now with time intervals:</p>
+<p>
+
+
+
+  
+  
+  <img
+    src="/images/truetime-3.png"
+    alt="truetime 3"
+    
+    loading="lazy"
+    width="1218"
+    height="574"
+  />
+
+
+
+
+
+
+</p>
+<p>So as before, if we were to rely on the “reported time,” we would come to the wrong conclusion that \(T_B\) happened before \(T_A\). Here’s a simple fix though now that we have intervals: in the case where we have a conflicting transaction with overlapping intervals, make it so that the one with the later start time waits until it’s no longer overlapping. <strong>Concretely, make \(T_B\) wait until it’s interval has at least a start of 2</strong>. If we were to do this, then there’s no way \(T_A\) and \(T_B\) can have incorrect ordering.</p>
+<p>
+
+
+
+  
+  
+  <img
+    src="/images/truetime-4.png"
+    alt="truetime 4"
+    
+    loading="lazy"
+    width="1468"
+    height="365"
+  />
+
+
+
+
+
+
+</p>
+<p>The key takeaway is that since we have the intervals, <em>we have a bound on how long to wait until there’s no longer a conflict</em>. Before, we couldn’t be sure with just the local timestamps that there was a problem, as we didn’t have a bound on the timestamps’ uncertainty.</p>
+<h1 id="brief-thoughts-on-spanner">Brief thoughts on Spanner<a href="#brief-thoughts-on-spanner" class="post-heading__anchor" aria-hidden="true">#</a>
+</h1>
+<p>I’ve handwaved some of the finer details on how TrueTime is used in Spanner to keep the scope of this blogpost small. However, technically the scheme I described should be correct to generate a total ordering.</p>
+<p>While Google went about creating a globally distributed serializable database like this, there haven’t been many follow-ups that build off of this from my knowledge. This could be for a lot of reasons that I’m definitely not an authority on, but some ideas:</p>
+<ul>
+<li>Developers are ok with dealing with eventual consistency</li>
+<li>Google’s implementation of Spanner is too expensive</li>
+<li>…or the people who want the guarantees are just using the GCP version</li>
+<li>The players who deal with scaling problems like this already have their own solutions, public or not.</li>
+</ul>
+<p>Regardless, it was fun to learn about this and hopefully this was helpful 🙂</p>
+<h1 id="appendix">Appendix<a href="#appendix" class="post-heading__anchor" aria-hidden="true">#</a>
+</h1>
+<p><strong>Why are the reported times not at the center of the TrueTime intervals?</strong></p>
+<p>I’m not entirely sure about this, but (1) the API doesn’t actually specify where the reported time is — just that it’s an interval. I’m guessing it’s possible for the local time to drift within the interval and it depends on factors like network synchronization and the tendency of the local clock to drift.</p>
 
     </div>
 
@@ -2165,7 +2238,7 @@ aside.toc ul {
       
       <a
         href="/tags/christianity"
-        style="font-size:1.1612359947967774rem"
+        style="font-size:1.1347315347813558rem"
         class="tag-cloud__tag"
         >christianity</a
       >
@@ -2184,8 +2257,18 @@ aside.toc ul {
       
       
       <a
+        href="/tags/music"
+        style="font-size:0.8rem"
+        class="tag-cloud__tag"
+        >music</a
+      >
+    
+      
+      
+      
+      <a
         href="/tags/tech"
-        style="font-size:1.9450910113271898rem"
+        style="font-size:1.9579808551776126rem"
         class="tag-cloud__tag"
         >tech</a
       >

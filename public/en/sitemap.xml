@@ -2,11 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/christianity/</loc>
-    <lastmod>2023-10-10T21:18:22-07:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2023-10-10T21:18:22-07:00</lastmod>
+    <lastmod>2024-03-22T12:50:14-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -18,11 +15,14 @@
                 href="//localhost:1313/"
                 />
   </url><url>
+    <loc>//localhost:1313/posts/window-management/</loc>
+    <lastmod>2024-03-22T12:50:14-07:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/posts/</loc>
-    <lastmod>2023-10-10T21:18:22-07:00</lastmod>
+    <lastmod>2024-03-22T12:50:14-07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2023-10-10T21:18:22-07:00</lastmod>
+    <lastmod>2024-03-22T12:50:14-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -34,6 +34,18 @@
                 href="//localhost:1313/tags/"
                 />
   </url><url>
+    <loc>//localhost:1313/tags/tech/</loc>
+    <lastmod>2024-03-22T12:50:14-07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/half-steps/</loc>
+    <lastmod>2023-12-27T12:39:25-07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/music/</loc>
+    <lastmod>2023-12-27T12:39:25-07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/christianity/</loc>
+    <lastmod>2023-10-10T21:18:22-07:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/posts/the-first-use-of-yhwh-in-the-bible/</loc>
     <lastmod>2023-10-10T21:18:22-07:00</lastmod>
   </url><url>
@@ -41,9 +53,6 @@
     <lastmod>2023-06-14T21:07:37-07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/spanner/</loc>
-    <lastmod>2023-06-04T14:41:15-07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/tech/</loc>
     <lastmod>2023-06-04T14:41:15-07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/notifs-suck/</loc>

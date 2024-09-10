@@ -7,6 +7,13 @@ title = "Hi, I'm Stephen 👋"
   tag = 'tags'
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]']]
+          inline = [['$$', '$$'], ['\(', '\)']]
   # (Optional) To be able to use all Prism plugins, the theme enables unsafe
   # rendering by default
   _merge = "deep"
@@ -69,6 +76,7 @@ title = "Hi, I'm Stephen 👋"
     target = "assets/katex"
 
 [params]
+  math = true
   # dark or light, defaults to light. Local storage and OS preference override this param. For more details see: 
   # https://github.com/schnerring/hugo-theme-gruvbox/issues/34#issuecomment-1235870375
   defaultTheme = "light"
