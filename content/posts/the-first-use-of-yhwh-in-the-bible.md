@@ -5,6 +5,8 @@ draft = true
 tags = ["christianity"]
 +++
 
+_Originally posted [on Substack](https://excitedchristianrambles.substack.com/p/the-first-use-of-yhwh-in-the-bible)_
+
 You know the first verse of the Bible, right?
 
 > In the beginning, God created the heavens and the earth.

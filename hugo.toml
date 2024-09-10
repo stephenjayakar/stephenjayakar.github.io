@@ -64,6 +64,9 @@ title = "Hi, I'm Stephen 👋"
     # Add hugo_stats.json to Hugo's server watcher
     source = "hugo_stats.json"
     target = "assets/watching/hugo_stats.json"
+  [[module.mounts]]
+    source = "node_modules/katex"
+    target = "assets/katex"
 
 [params]
   # dark or light, defaults to light. Local storage and OS preference override this param. For more details see: 
