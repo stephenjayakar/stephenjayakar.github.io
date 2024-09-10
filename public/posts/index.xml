@@ -6,7 +6,112 @@
     <description>Recent content in Posts on Hi, I&#39;m Stephen 👋</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2024 12:55:02 -0700</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why pay for Notion’s AI? I built my own auto-tagging tool in a week!</title>
+      <link>//localhost:1313/posts/notion-ai/</link>
+      <pubDate>Wed, 04 Sep 2024 12:55:02 -0700</pubDate>
+      <guid>//localhost:1313/posts/notion-ai/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/why-pay-for-notions-ai-i-built-my-own-auto-tagging-tool-in-a-week-be2f57fb1b92&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I built the thing I talk about in this blog post — if you want to check it out, &lt;a&#xA;  href=&#34;https://github.com/stephenjayakar/notion-journal-tagger/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;it’s here&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;  &lt;figure&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &lt;img&#xA;    src=&#34;//localhost:1313/images/notion-ai.webp&#34;&#xA;    alt=&#34;notion ai&#34;&#xA;    title=&#34;We have AI at home, courtesy of ChatGPT&#34;&#xA;    loading=&#34;lazy&#34;&#xA;    width=&#34;1024&#34;&#xA;    height=&#34;1024&#34;&#xA;  /&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &lt;figcaption&gt;We have AI at home, courtesy of ChatGPT&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How I do window management in Mac OS X</title>
+      <link>//localhost:1313/posts/window-management/</link>
+      <pubDate>Fri, 22 Mar 2024 12:50:14 -0700</pubDate>
+      <guid>//localhost:1313/posts/window-management/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://stephenjayakar.substack.com/p/how-i-do-window-management-in-mac&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Brief doc I&amp;rsquo;m sending to my friendos&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;For transparency, I’m going to recommend a paid window switcher I use for Mac OS X called &lt;a&#xA;  href=&#34;https://contexts.co/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Contexts&lt;/a&gt;. It’s saved me so much time and has made using my computer a breeze; so much so, that I’ve bound it to &lt;code&gt;CMD+Tab&lt;/code&gt;. I’ll attempt to justify this in the doc.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I made a web app to get better at adding half-steps to notes</title>
+      <link>//localhost:1313/posts/half-steps/</link>
+      <pubDate>Wed, 27 Dec 2023 12:39:25 -0700</pubDate>
+      <guid>//localhost:1313/posts/half-steps/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://stephenjayakar.substack.com/p/i-made-a-web-app-to-get-better-at?r=1pf9f2&amp;amp;utm_medium=ios&amp;amp;utm_campaign=post&amp;amp;triedRedirect=true&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &lt;img&#xA;    src=&#34;//localhost:1313/images/half-steps-1.png&#34;&#xA;    alt=&#34;half-steps-1&#34;&#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    width=&#34;1290&#34;&#xA;    height=&#34;813&#34;&#xA;  /&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The first use of YHWH in the Bible is pretty odd</title>
+      <link>//localhost:1313/posts/the-first-use-of-yhwh-in-the-bible/</link>
+      <pubDate>Tue, 10 Oct 2023 21:18:22 -0700</pubDate>
+      <guid>//localhost:1313/posts/the-first-use-of-yhwh-in-the-bible/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://excitedchristianrambles.substack.com/p/the-first-use-of-yhwh-in-the-bible&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;You know the first verse of the Bible, right?&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In the beginning, God created the heavens and the earth.&lt;/p&gt;&#xA;&lt;p&gt;Gen 1:1 NET&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;The word for God here is &lt;code&gt;Elohim&lt;/code&gt;. There are some interesting tidbits about this:&lt;/p&gt;&#xA;&lt;p&gt;The noun is in its plural form. Singular would be &lt;code&gt;Eloah&lt;/code&gt;. While this seems really controversial, in most of the usages, it’s paired with a singular verb. AKA “created” up there is masculine singular. So it’s often interpreted as a majestic plural.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Yom: Examining Creations Timeframe With Linguistics</title>
+      <link>//localhost:1313/posts/yom-examining-creations-timeframe-with-linguistics/</link>
+      <pubDate>Wed, 14 Jun 2023 21:07:37 -0700</pubDate>
+      <guid>//localhost:1313/posts/yom-examining-creations-timeframe-with-linguistics/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://excitedchristianrambles.substack.com/p/yom-examining-creations-timeframe&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;I’ve often encountered Christians that believe the world was created in 7 24-hour days, because “that’s what the Bible says” in Genesis 1 and they won’t believe otherwise.&lt;/p&gt;&#xA;&lt;p&gt;There are a ton of arguments against this “fact,” but I think the most compelling one is &lt;strong&gt;the linguistic ambiguity for the word “day” (&lt;/strong&gt;&lt;code&gt;yom&lt;/code&gt;&lt;strong&gt;) used in the creation account&lt;/strong&gt;. First, let’s take a look at an English translation for one of the days of creation:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Notes on Google&#39;s TrueTime</title>
+      <link>//localhost:1313/posts/spanner/</link>
+      <pubDate>Sun, 04 Jun 2023 14:41:15 -0700</pubDate>
+      <guid>//localhost:1313/posts/spanner/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://stephenjayakar.substack.com/p/my-notes-on-googles-truetime?utm_campaign=post&amp;amp;utm_medium=web&amp;amp;triedRedirect=true&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;edit: this blogpost was initially wrong when I published it. Thanks to some comments I got, I learned I didn’t fully understand TrueTime or Spanner — I’ve spent some time learning and understanding the core concept again, and have updated this artifact. This is an externalized resource for me that I hope can be helpful for others.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notifications Suck</title>
+      <link>//localhost:1313/posts/notifs-suck/</link>
+      <pubDate>Fri, 02 Jun 2023 14:38:05 -0700</pubDate>
+      <guid>//localhost:1313/posts/notifs-suck/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/notifications-suck-6b33495f9e8a&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &lt;img&#xA;    src=&#34;//localhost:1313/images/hungry-stephen.webp&#34;&#xA;    alt=&#34;hungry stephen&#34;&#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    width=&#34;1170&#34;&#xA;    height=&#34;260&#34;&#xA;  /&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Some quick git (and zsh) workflow optimizations</title>
+      <link>//localhost:1313/posts/some-quick-zsh/</link>
+      <pubDate>Sun, 25 Dec 2022 14:32:18 -0700</pubDate>
+      <guid>//localhost:1313/posts/some-quick-zsh/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/some-quick-git-and-zsh-workflow-optimizations-a979c74b814f&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I use &lt;code&gt;git&lt;/code&gt; a ton in work and my personal life, and have come up with a couple of aliases that have made using it so much more pleasant and fast. &lt;strong&gt;First, I’ve renamed &lt;code&gt;git&lt;/code&gt; to &lt;code&gt;g&lt;/code&gt;&lt;/strong&gt;. &lt;em&gt;You have no idea how much typing that’s saved me (I also don’t know).&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I’m against AIs writing blog posts</title>
+      <link>//localhost:1313/posts/im-against-ai-blog/</link>
+      <pubDate>Sat, 03 Dec 2022 14:28:29 -0700</pubDate>
+      <guid>//localhost:1313/posts/im-against-ai-blog/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/im-against-ais-writing-blog-posts-17900f903c5c&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &lt;img&#xA;    src=&#34;//localhost:1313/images/ai-blog.webp&#34;&#xA;    alt=&#34;ai blog&#34;&#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    width=&#34;1400&#34;&#xA;    height=&#34;1082&#34;&#xA;  /&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Frontend developers: stop moving things that I’m about to click on</title>
+      <link>//localhost:1313/posts/frontend-devs-stop-moving/</link>
+      <pubDate>Fri, 25 Nov 2022 13:58:48 -0700</pubDate>
+      <guid>//localhost:1313/posts/frontend-devs-stop-moving/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/frontend-developers-stop-moving-things-that-im-about-to-click-on-5827bc0409b3&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &lt;img&#xA;    src=&#34;//localhost:1313/images/do-better.webp&#34;&#xA;    alt=&#34;do better&#34;&#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    width=&#34;1400&#34;&#xA;    height=&#34;936&#34;&#xA;  /&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Big Rocks</title>
+      <link>//localhost:1313/posts/big-rocks/</link>
+      <pubDate>Wed, 23 Nov 2022 13:56:54 -0700</pubDate>
+      <guid>//localhost:1313/posts/big-rocks/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://www.linkedin.com/posts/stephenjayakar_big-rocks-leadership-activity-7000927233380925440-CD_X/?utm_source=share&amp;amp;utm_medium=member_desktop&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on LinkedIn&lt;/a&gt; as a meme&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;i’ve been thinking about the big rocks every day&lt;/p&gt;&#xA;&lt;p&gt;for those who don’t know: &lt;a&#xA;  href=&#34;https://lnkd.in/gZGfgBE9&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;https://lnkd.in/gZGfgBE9&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;just the other day, i was at whole foods. and i tried to fit the items into my cute tote bag haphazardly. they didn’t fit!!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Attachment Styles at Work</title>
+      <link>//localhost:1313/posts/attachment-styles-at-work/</link>
+      <pubDate>Sat, 17 Sep 2022 13:50:20 -0700</pubDate>
+      <guid>//localhost:1313/posts/attachment-styles-at-work/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://www.linkedin.com/posts/stephenjayakar_social-thoughtleadership-attachment-activity-6976933121694846976-fBwY?utm_source=share&amp;amp;utm_medium=member_desktop&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on LinkedIn&lt;/a&gt; as a meme&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;my friends are all attachment styles this and attachment styles that when it comes to dating. however, has anyone had the brilliant idea of applying attachment styles to working at a tech company? I didn’t think so! now you might be thinking, “hey Stephen isn’t this a bad idea?” and yes, it is. but just like we should all hope to be secure partners in our relationships, we should also &lt;em&gt;possibly&lt;/em&gt; strive to be secure capitalistic partners at work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adopting the OpenAPI schema to generate Plaid&#39;s SDKs</title>
+      <link>//localhost:1313/posts/plaid-adopting-openapi/</link>
+      <pubDate>Wed, 15 Sep 2021 13:03:41 -0700</pubDate>
+      <guid>//localhost:1313/posts/plaid-adopting-openapi/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted on the &lt;a&#xA;  href=&#34;https://plaid.com/blog/adopting-the-openapi-schema-to-generate-plaids-sdks/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Plaid Engineering Blog&lt;/a&gt; while I was part of Plaid&amp;rsquo;s Developer Experience Team&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The developer experience team focuses on building tools and features that make it as easy as possible for developers to explore our APIs and integrate with Plaid. This year, our team adopted an OpenAPI schema (OAS) as a specification for our API. We launched this schema in beta earlier this year.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing ES6 Everywhere</title>
+      <link>//localhost:1313/posts/writing-es6-everywhere/</link>
+      <pubDate>Sat, 28 Sep 2019 12:55:44 -0700</pubDate>
+      <guid>//localhost:1313/posts/writing-es6-everywhere/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted on the &lt;a&#xA;  href=&#34;https://mdb.dev/misc-content/writing-es6-everywhere/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Mobile Developers of Berkeley blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;This article is going to be a quick intro to the basics of writing modern JavaScript all the time, rather than being dependent on what environment is supported by a given browser.&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;a href=&#34;#intro&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;First, what is ES6?  &lt;strong&gt;E&lt;/strong&gt;CMA&lt;strong&gt;S&lt;/strong&gt;cript 6 is the sixth standardized version of JavaScript, which is ultimately a specification of language features.  ES6 added a ton of really great features that drastically improved the ability to construct larger-scale programs with JavaScript (like constants and block scoping!).  It’s important to note, as ES6 is only a specification, it’s ultimately up to the browsers to provide an implementation for these new features: often, certain browsers lag behind on implementing all these features (i.e. IE).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Quick Dive Into Python&#39;s Slots</title>
+      <link>//localhost:1313/posts/a-quick-dive-into-pythons-slots/</link>
+      <pubDate>Fri, 09 Nov 2018 18:00:10 -0700</pubDate>
+      <guid>//localhost:1313/posts/a-quick-dive-into-pythons-slots/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/a-quick-dive-into-pythons-slots-72cdc2d334e&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For my first Medium article, we’re going to go into a quick and easy way to speed up your Python code (and pass those pesky HackerRank tests where you’re just a bit short on time!), as well as some of the technical implementation details for the curious.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
