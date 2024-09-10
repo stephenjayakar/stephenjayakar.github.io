@@ -1,7 +1,6 @@
 +++
 title = "Why pay for Notion’s AI? I built my own auto-tagging tool in a week!"
 date = 2024-09-04T12:55:02-07:00
-draft = true
 tags = ['tech']
 +++
 

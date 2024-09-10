@@ -1,7 +1,6 @@
 +++
 title = 'Writing ES6 Everywhere'
 date = 2019-09-28T12:55:44-07:00
-draft = true
 tags = ['tech']
 +++
 

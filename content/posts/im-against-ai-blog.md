@@ -1,7 +1,6 @@
 +++
 title = "I’m against AIs writing blog posts"
 date = 2022-12-03T14:28:29-07:00
-draft = true
 tags = ['tech']
 +++
 

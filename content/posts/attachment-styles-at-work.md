@@ -1,7 +1,6 @@
 +++
 title = 'Attachment Styles at Work'
 date = 2022-09-17T13:50:20-07:00
-draft = true
 tags = ['tech', 'dating']
 +++
 

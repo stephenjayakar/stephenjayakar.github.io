@@ -1,7 +1,6 @@
 +++
 title = "Some quick git (and zsh) workflow optimizations"
 date = 2022-12-25T14:32:18-07:00
-draft = true
 tags = ['tech']
 +++
 

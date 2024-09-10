@@ -1,7 +1,6 @@
 +++
 title = 'The first use of YHWH in the Bible is pretty odd'
 date = 2023-10-10T21:18:22-07:00
-draft = true
 tags = ["christianity"]
 +++
 

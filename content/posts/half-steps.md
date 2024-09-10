@@ -1,7 +1,6 @@
 +++
 title = "I made a web app to get better at adding half-steps to notes"
 date = 2023-12-27T12:39:25-07:00
-draft = true
 tags = ['tech', 'music']
 +++
 

@@ -1,7 +1,6 @@
 +++
 title = 'Yom: Examining Creations Timeframe With Linguistics'
 date = 2023-06-14T21:07:37-07:00
-draft = true
 tags = ["Christianity"]
 +++
 

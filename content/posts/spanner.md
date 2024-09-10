@@ -1,7 +1,6 @@
 +++
 title = "My Notes on Google's TrueTime"
 date = 2023-06-04T14:41:15-07:00
-draft = true
 tags = ['tech']
 +++
 

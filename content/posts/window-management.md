@@ -1,7 +1,6 @@
 +++
 title = 'How I do window management in Mac OS X'
 date = 2024-03-22T12:50:14-07:00
-draft = true
 tags = ['tech']
 +++
 

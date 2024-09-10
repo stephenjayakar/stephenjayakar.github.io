@@ -1,7 +1,6 @@
 +++
 title = 'Big Rocks'
 date = 2022-11-23T13:56:54-07:00
-draft = true
 +++
 
 _Originally posted [on LinkedIn](https://www.linkedin.com/posts/stephenjayakar_big-rocks-leadership-activity-7000927233380925440-CD_X/?utm_source=share&utm_medium=member_desktop) as a meme_.

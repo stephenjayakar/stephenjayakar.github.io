@@ -1,7 +1,6 @@
 +++
 title = "Adopting the OpenAPI schema to generate Plaid's SDKs"
 date = 2021-09-15T13:03:41-07:00
-draft = true
 tags = ['tech']
 +++
 

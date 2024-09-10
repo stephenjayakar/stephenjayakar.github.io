@@ -1,7 +1,6 @@
 +++
 title = "Frontend developers: stop moving things that I’m about to click on"
 date = 2022-11-25T13:58:48-07:00
-draft = true
 tags = ['tech']
 +++
 

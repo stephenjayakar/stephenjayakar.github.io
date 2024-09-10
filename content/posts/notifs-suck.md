@@ -1,7 +1,6 @@
 +++
 title = 'Notifications Suck'
 date = 2023-06-02T14:38:05-07:00
-draft = true
 tags = ['tech']
 +++
 

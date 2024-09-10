@@ -1,7 +1,6 @@
 +++
 title = "A Quick Dive Into Python's Slots"
 date = 2018-11-09T18:00:10-07:00
-draft = true
 tags = ['tech']
 +++
 
