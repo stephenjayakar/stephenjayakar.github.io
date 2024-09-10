@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Hi, I&#39;m Stephen 👋</title>
-    <link>//localhost:1313/de/</link>
-    <description>Recent content on Hi, I&#39;m Stephen 👋</description>
-    <generator>Hugo</generator>
-    <language>de</language>
-    <atom:link href="//localhost:1313/de/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hi, I'm Stephen 👋</title><link>stephenjayakar.com/de/</link><description>Recent content on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>de</language><atom:link href="stephenjayakar.com/de/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
