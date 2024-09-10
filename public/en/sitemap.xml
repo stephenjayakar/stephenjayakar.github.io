@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2024-03-22T12:50:14-07:00</lastmod>
+    <lastmod>2024-09-04T12:55:02-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -15,14 +15,11 @@
                 href="//localhost:1313/"
                 />
   </url><url>
-    <loc>//localhost:1313/posts/window-management/</loc>
-    <lastmod>2024-03-22T12:50:14-07:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/posts/</loc>
-    <lastmod>2024-03-22T12:50:14-07:00</lastmod>
+    <lastmod>2024-09-04T12:55:02-07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
-    <lastmod>2024-03-22T12:50:14-07:00</lastmod>
+    <lastmod>2024-09-04T12:55:02-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
@@ -35,6 +32,12 @@
                 />
   </url><url>
     <loc>//localhost:1313/tags/tech/</loc>
+    <lastmod>2024-09-04T12:55:02-07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/notion-ai/</loc>
+    <lastmod>2024-09-04T12:55:02-07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/window-management/</loc>
     <lastmod>2024-03-22T12:50:14-07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/half-steps/</loc>
@@ -85,16 +88,6 @@
     <loc>//localhost:1313/posts/a-quick-dive-into-pythons-slots/</loc>
     <lastmod>2018-11-09T18:00:10-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="//localhost:1313/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="//localhost:1313/categories/"
-                />
+    <loc>//localhost:1313/about/</loc>
   </url>
 </urlset>

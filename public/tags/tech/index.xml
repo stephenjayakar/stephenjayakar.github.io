@@ -6,14 +6,21 @@
     <description>Recent content in Tech on Hi, I&#39;m Stephen 👋</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2024 12:50:14 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2024 12:55:02 -0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why pay for Notion’s AI? I built my own auto-tagging tool in a week!</title>
+      <link>//localhost:1313/posts/notion-ai/</link>
+      <pubDate>Wed, 04 Sep 2024 12:55:02 -0700</pubDate>
+      <guid>//localhost:1313/posts/notion-ai/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/why-pay-for-notions-ai-i-built-my-own-auto-tagging-tool-in-a-week-be2f57fb1b92&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I built the thing I talk about in this blog post — if you want to check it out, &lt;a&#xA;  href=&#34;https://github.com/stephenjayakar/notion-journal-tagger/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;it’s here&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;&#xA;&#xA;  &lt;figure&gt;&#xA;&#xA;&#xA;&#xA;  &#xA;  &#xA;  &lt;img&#xA;    src=&#34;//localhost:1313/images/notion-ai.webp&#34;&#xA;    alt=&#34;notion ai&#34;&#xA;    title=&#34;We have AI at home, courtesy of ChatGPT&#34;&#xA;    loading=&#34;lazy&#34;&#xA;    width=&#34;1024&#34;&#xA;    height=&#34;1024&#34;&#xA;  /&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;    &lt;figcaption&gt;We have AI at home, courtesy of ChatGPT&lt;/figcaption&gt;&#xA;  &lt;/figure&gt;&#xA;&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How I do window management in Mac OS X</title>
       <link>//localhost:1313/posts/window-management/</link>
       <pubDate>Fri, 22 Mar 2024 12:50:14 -0700</pubDate>
       <guid>//localhost:1313/posts/window-management/</guid>
-      <description>&lt;p&gt;For transparency, I’m going to recommend a paid window switcher I use for Mac OS X called &lt;a&#xA;  href=&#34;https://contexts.co/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Contexts&lt;/a&gt;. It’s saved me so much time and has made using my computer a breeze; so much so, that I’ve bound it to &lt;code&gt;CMD+Tab&lt;/code&gt;. I’ll attempt to justify this in the doc.&lt;/p&gt;&#xA;&lt;p&gt;The default window management paradigm in Mac OS X, for me, left much to be desired. I grew up using Windows, which has a pretty different pattern for how you &lt;code&gt;Alt+Tab&lt;/code&gt; between windows.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://stephenjayakar.substack.com/p/how-i-do-window-management-in-mac&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Brief doc I&amp;rsquo;m sending to my friendos&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;For transparency, I’m going to recommend a paid window switcher I use for Mac OS X called &lt;a&#xA;  href=&#34;https://contexts.co/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Contexts&lt;/a&gt;. It’s saved me so much time and has made using my computer a breeze; so much so, that I’ve bound it to &lt;code&gt;CMD+Tab&lt;/code&gt;. I’ll attempt to justify this in the doc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>I made a web app to get better at adding half-steps to notes</title>

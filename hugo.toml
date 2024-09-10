@@ -3,8 +3,17 @@ languageCode = 'en-us'
 title = "Hi, I'm Stephen 👋"
 
 [taxonomies]
-  category = 'categories'
   tag = 'tags'
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
+  [[menu.main]]
+    name = "Resume"
+    url = "/resume"
+    weight = 1
 
 [markup]
   [markup.goldmark]
