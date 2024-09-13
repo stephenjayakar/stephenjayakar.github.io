@@ -1,4 +1,4 @@
-baseURL = "stephenjayakar.github.io"
+baseURL = "https://stephenjayakar.github.io"
 languageCode = 'en-us'
 title = "Hi, I'm Stephen 👋"
 
@@ -28,8 +28,10 @@ title = "Hi, I'm Stephen 👋"
   _merge = "deep"
 
 [build]
-  # Merge build config of the theme
-  _merge = "deep"
+  useResourceCacheWhen = "fallback"
+# [build]
+#   # Merge build config of the theme
+#   _merge = "deep"
 
 # This hopefully will be simpler in the future.
 # See: https://github.com/schnerring/hugo-theme-gruvbox/issues/16
