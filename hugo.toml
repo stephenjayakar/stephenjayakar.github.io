@@ -96,8 +96,8 @@ title = "Hi, I'm Stephen 👋"
   # soft medium hard, defaults to medium
   themeContrast = "hard"
   author = "Stephen Jayakar"
-  subtitle = "Test Update"
-  description = "Update Description"
+  subtitle = ""
+  description = ""
 
   [params.logo]
     text = "stephenjayakar.com"
