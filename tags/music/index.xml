@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Music on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/tags/music/</link><description>Recent content in Music on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 27 Dec 2023 12:39:25 -0700</lastBuildDate><atom:link href="https://stephenjayakar.github.io/tags/music/index.xml" rel="self" type="application/rss+xml"/><item><title>I made a web app to get better at adding half-steps to notes</title><link>https://stephenjayakar.github.io/posts/half-steps/</link><pubDate>Wed, 27 Dec 2023 12:39:25 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/half-steps/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://stephenjayakar.substack.com/p/i-made-a-web-app-to-get-better-at?r=1pf9f2&amp;amp;utm_medium=ios&amp;amp;utm_campaign=post&amp;amp;triedRedirect=true"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Substack&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>
+
+
+
+ 
+ 
+ &lt;img
+ src="https://stephenjayakar.github.io/images/half-steps-1.png"
+ alt="half-steps-1"
+ 
+ loading="lazy"
+ width="1290"
+ height="813"
+ />
+
+
+
+
+
+
+&lt;/p>
+&lt;p>Try it out &lt;a
+ href="https://music-math.vercel.app/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>here&lt;/a> if you like pressing buttons as much as I do! &lt;a
+ href="https://github.com/stephenjayakar/music-math"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>GitHub&lt;/a> if you like reading code.&lt;/p>
+&lt;p>During the holidays, I wanted to get better at answering questions like “what is 7 half steps up from A?&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>” I often found myself in the situation of having these problems as a lot of guitar chord sheets are written something like “A capo 7” which means you put the big barre thing on your guitar and play an A-shape chord. When using a capo, the actual underlying chord is &amp;lsquo;A + 7 half steps&amp;rsquo;. This means if you&amp;rsquo;re collaborating with another instrument or with someone not using a capo, you need to communicate the actual chord you&amp;rsquo;re playing. This requires some mental math, which I found slightly embarrassing as I didn&amp;rsquo;t always immediately know what chord I was playing.&lt;/p></description></item></channel></rss>

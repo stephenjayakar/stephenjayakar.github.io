@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/posts/</link><description>Recent content in Posts on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2024 11:57:45 -0700</lastBuildDate><atom:link href="https://stephenjayakar.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Choosing a Blogging Platform: Aesthetic and Technical Considerations</title><link>https://stephenjayakar.github.io/posts/blogging-platform/</link><pubDate>Sat, 14 Sep 2024 11:57:45 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/blogging-platform/</guid><description>&lt;p>In my journey as a blogger, I’ve published posts across platforms like Medium, Substack, and other proprietary blogging stacks. When writing more and more technical stuff, I realized that some stacks were definitely better than others.&lt;/p>
+&lt;p>When consuming other people&amp;rsquo;s blog posts, the first thing that stood out to me was aesthetics. You get an impression about the platform and the person simply by the details of how their text looks. Does their code have great, language-specific highlights? Do they use &lt;code>monospace&lt;/code> + does their platform support it? How is the image formatting? What about the base color scheme?&lt;/p></description></item><item><title>Why pay for Notion’s AI? I built my own auto-tagging tool in a week!</title><link>https://stephenjayakar.github.io/posts/notion-ai/</link><pubDate>Wed, 04 Sep 2024 12:55:02 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/notion-ai/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://medium.com/@stephenjayakar/why-pay-for-notions-ai-i-built-my-own-auto-tagging-tool-in-a-week-be2f57fb1b92"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Medium&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>I built the thing I talk about in this blog post — if you want to check it out, &lt;a
+ href="https://github.com/stephenjayakar/notion-journal-tagger/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>it’s here&lt;/a>!&lt;/p>
+&lt;p>
+
+ &lt;figure>
+
+
+
+ 
+ 
+ &lt;img
+ src="https://stephenjayakar.github.io/images/notion-ai.webp"
+ alt="notion ai"
+ title="We have AI at home, courtesy of ChatGPT"
+ loading="lazy"
+ width="1024"
+ height="1024"
+ />
+
+
+
+
+
+ &lt;figcaption>We have AI at home, courtesy of ChatGPT&lt;/figcaption>
+ &lt;/figure>
+
+
+&lt;/p>
+&lt;p>&lt;a
+ href="https://www.notion.so/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>Notion&lt;/a>, like every tech company, has been shoving AI features down our throats for the last couple of months at the cost of customer UX. &lt;strong>So I disabled them&lt;/strong>. You can do this yourself by just messaging support — I got the idea from &lt;a
+ href="https://www.reddit.com/r/Notion/comments/1d2mbyx/how_to_remove_notion_ai_from_workspace/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>this Reddit thread&lt;/a>, which is one of many. Ever since I disabled it, the UX has at least returned-to-normal, and performance of editing has increased (have you ever noticed how Notion lags a bit every time you press &lt;code>SPC&lt;/code> so that it can show you the AI toolbar?).&lt;/p></description></item><item><title>How I do window management in Mac OS X</title><link>https://stephenjayakar.github.io/posts/window-management/</link><pubDate>Fri, 22 Mar 2024 12:50:14 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/window-management/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://stephenjayakar.substack.com/p/how-i-do-window-management-in-mac"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Substack&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>&lt;em>Brief doc I&amp;rsquo;m sending to my friendos&lt;/em>&lt;/p>
+&lt;p>For transparency, I’m going to recommend a paid window switcher I use for Mac OS X called &lt;a
+ href="https://contexts.co/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>Contexts&lt;/a>. It’s saved me so much time and has made using my computer a breeze; so much so, that I’ve bound it to &lt;code>CMD+Tab&lt;/code>. I’ll attempt to justify this in the doc.&lt;/p>
+&lt;p>The default window management paradigm in Mac OS X, for me, left much to be desired. I grew up using Windows, which has a pretty different pattern for how you &lt;code>Alt+Tab&lt;/code> between windows.&lt;/p></description></item><item><title>I made a web app to get better at adding half-steps to notes</title><link>https://stephenjayakar.github.io/posts/half-steps/</link><pubDate>Wed, 27 Dec 2023 12:39:25 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/half-steps/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://stephenjayakar.substack.com/p/i-made-a-web-app-to-get-better-at?r=1pf9f2&amp;amp;utm_medium=ios&amp;amp;utm_campaign=post&amp;amp;triedRedirect=true"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Substack&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>
+
+
+
+ 
+ 
+ &lt;img
+ src="https://stephenjayakar.github.io/images/half-steps-1.png"
+ alt="half-steps-1"
+ 
+ loading="lazy"
+ width="1290"
+ height="813"
+ />
+
+
+
+
+
+
+&lt;/p>
+&lt;p>Try it out &lt;a
+ href="https://music-math.vercel.app/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>here&lt;/a> if you like pressing buttons as much as I do! &lt;a
+ href="https://github.com/stephenjayakar/music-math"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>GitHub&lt;/a> if you like reading code.&lt;/p>
+&lt;p>During the holidays, I wanted to get better at answering questions like “what is 7 half steps up from A?&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>” I often found myself in the situation of having these problems as a lot of guitar chord sheets are written something like “A capo 7” which means you put the big barre thing on your guitar and play an A-shape chord. When using a capo, the actual underlying chord is &amp;lsquo;A + 7 half steps&amp;rsquo;. This means if you&amp;rsquo;re collaborating with another instrument or with someone not using a capo, you need to communicate the actual chord you&amp;rsquo;re playing. This requires some mental math, which I found slightly embarrassing as I didn&amp;rsquo;t always immediately know what chord I was playing.&lt;/p></description></item><item><title>The first use of YHWH in the Bible is pretty odd</title><link>https://stephenjayakar.github.io/posts/the-first-use-of-yhwh-in-the-bible/</link><pubDate>Tue, 10 Oct 2023 21:18:22 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/the-first-use-of-yhwh-in-the-bible/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://excitedchristianrambles.substack.com/p/the-first-use-of-yhwh-in-the-bible"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Substack&lt;/a>&lt;/em>&lt;/p>
+&lt;p>You know the first verse of the Bible, right?&lt;/p>
+&lt;blockquote>
+&lt;p>In the beginning, God created the heavens and the earth.&lt;/p>
+&lt;p>Gen 1:1 NET&lt;/p>
+&lt;/blockquote>
+&lt;p>The word for God here is &lt;code>Elohim&lt;/code>. There are some interesting tidbits about this:&lt;/p>
+&lt;p>The noun is in its plural form. Singular would be &lt;code>Eloah&lt;/code>. While this seems really controversial, in most of the usages, it’s paired with a singular verb. AKA “created” up there is masculine singular. So it’s often interpreted as a majestic plural.&lt;/p></description></item><item><title>Yom: Examining Creations Timeframe With Linguistics</title><link>https://stephenjayakar.github.io/posts/yom-examining-creations-timeframe-with-linguistics/</link><pubDate>Wed, 14 Jun 2023 21:07:37 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/yom-examining-creations-timeframe-with-linguistics/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://excitedchristianrambles.substack.com/p/yom-examining-creations-timeframe"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Substack&lt;/a>&lt;/em>&lt;/p>
+&lt;p>I’ve often encountered Christians that believe the world was created in 7 24-hour days, because “that’s what the Bible says” in Genesis 1 and they won’t believe otherwise.&lt;/p>
+&lt;p>There are a ton of arguments against this “fact,” but I think the most compelling one is &lt;strong>the linguistic ambiguity for the word “day” (&lt;/strong>&lt;code>yom&lt;/code>&lt;strong>) used in the creation account&lt;/strong>. First, let’s take a look at an English translation for one of the days of creation:&lt;/p></description></item><item><title>My Notes on Google's TrueTime</title><link>https://stephenjayakar.github.io/posts/spanner/</link><pubDate>Sun, 04 Jun 2023 14:41:15 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/spanner/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://stephenjayakar.substack.com/p/my-notes-on-googles-truetime?utm_campaign=post&amp;amp;utm_medium=web&amp;amp;triedRedirect=true"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Substack&lt;/a>&lt;/em>&lt;/p>
+&lt;p>&lt;em>edit: this blogpost was initially wrong when I published it. Thanks to some comments I got, I learned I didn’t fully understand TrueTime or Spanner — I’ve spent some time learning and understanding the core concept again, and have updated this artifact. This is an externalized resource for me that I hope can be helpful for others.&lt;/em>&lt;/p>
+&lt;p>When I was reading the &lt;a
+ href="https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>famous paper on Spanner&lt;/a>, Google’s globally distributed linearizable database, I really struggled with the concept of TrueTime, which is a core component of &lt;em>why&lt;/em> they were able to get their guarantees. After trying to wrap my head around it, I created the following artifact (IMO, TrueTime deserves a mini-ish paper or post on its own):&lt;/p></description></item><item><title>Notifications Suck</title><link>https://stephenjayakar.github.io/posts/notifs-suck/</link><pubDate>Fri, 02 Jun 2023 14:38:05 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/notifs-suck/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://medium.com/@stephenjayakar/notifications-suck-6b33495f9e8a"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Medium&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>
+
+
+
+ 
+ 
+ &lt;img
+ src="https://stephenjayakar.github.io/images/hungry-stephen.webp"
+ alt="hungry stephen"
+ 
+ loading="lazy"
+ width="1170"
+ height="260"
+ />
+
+
+
+
+
+
+&lt;/p>
+&lt;p>they really do. I have most of them turned off on my phone.&lt;/p>
+&lt;p>first, idk who to blame about these, but there is this class of notifications that are like&lt;/p>
+&lt;p>“feeling hungry? order UberEats now!!”&lt;/p>
+&lt;p>someone gave someone this lever to pull to increase engagement. the first someone upsets me, and i sometimes think about the other someone and also get angry.&lt;/p>
+&lt;p>i turn all of these off, when I can actually turn them off. in the case where an app doesn’t let me disable them, I turn off all notifications for that app. &lt;strong>they’ve lost my trust&lt;/strong>.&lt;/p></description></item><item><title>Some quick git (and zsh) workflow optimizations</title><link>https://stephenjayakar.github.io/posts/some-quick-zsh/</link><pubDate>Sun, 25 Dec 2022 14:32:18 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/some-quick-zsh/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://medium.com/@stephenjayakar/some-quick-git-and-zsh-workflow-optimizations-a979c74b814f"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Medium&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>I use &lt;code>git&lt;/code> a ton in work and my personal life, and have come up with a couple of aliases that have made using it so much more pleasant and fast. &lt;strong>First, I’ve renamed &lt;code>git&lt;/code> to &lt;code>g&lt;/code>&lt;/strong>. &lt;em>You have no idea how much typing that’s saved me (I also don’t know).&lt;/em>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>alias g&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;git&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="aliases">Aliases&lt;a href="#aliases" class="post-heading__anchor" aria-hidden="true">#&lt;/a>
+&lt;/h1>
+&lt;p>&lt;code>git&lt;/code> allows you to alias commands. In the spirit of renaming commands to one character, here are my favorite aliases:&lt;/p></description></item><item><title>I’m against AIs writing blog posts</title><link>https://stephenjayakar.github.io/posts/im-against-ai-blog/</link><pubDate>Sat, 03 Dec 2022 14:28:29 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/im-against-ai-blog/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://medium.com/@stephenjayakar/im-against-ais-writing-blog-posts-17900f903c5c"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Medium&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>
+
+
+
+ 
+ 
+ &lt;img
+ src="https://stephenjayakar.github.io/images/ai-blog.webp"
+ alt="ai blog"
+ 
+ loading="lazy"
+ width="1400"
+ height="1082"
+ />
+
+
+
+
+
+
+&lt;/p>
+&lt;p>Why do we need AI to write blog posts? There’s been a trend of these AI tools to write things for you:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a
+ href="https://www.notion.so/product/ai"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>https://www.notion.so/product/ai&lt;/a>&lt;/li>
+&lt;li>&lt;a
+ href="https://www.copy.ai/bloggers"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>https://www.copy.ai/bloggers&lt;/a>&lt;/li>
+&lt;li>&lt;a
+ href="https://www.jasper.ai/examples/blog-posts"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>https://www.jasper.ai/examples/blog-posts&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Imagine you have something to say to people. So you come up with some representation of that thing you want to say; maybe bullet points, maybe a rant, maybe even some markdown stuck in a GitHub repository. Why can’t you just publish that?&lt;/p></description></item><item><title>Frontend developers: stop moving things that I’m about to click on</title><link>https://stephenjayakar.github.io/posts/frontend-devs-stop-moving/</link><pubDate>Fri, 25 Nov 2022 13:58:48 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/frontend-devs-stop-moving/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://medium.com/@stephenjayakar/frontend-developers-stop-moving-things-that-im-about-to-click-on-5827bc0409b3"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Medium&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>
+
+
+
+ 
+ 
+ &lt;img
+ src="https://stephenjayakar.github.io/images/do-better.webp"
+ alt="do better"
+ 
+ loading="lazy"
+ width="1400"
+ height="936"
+ />
+
+
+
+
+
+
+&lt;/p>
+&lt;p>Please. It’s an insult to my brain. Like, you put the button in one place, and then you’re like “nah, let’s move it somewhere else.” Here are some examples that have annoyed me the most lately:&lt;/p>
+&lt;h3 id="lyft-bike-scan-button">Lyft Bike Scan Button&lt;a href="#lyft-bike-scan-button" class="post-heading__anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;!-- raw HTML omitted -->
+&lt;p>This one sucks as I’m often opening the Lyft app just to ride bikes. So I immediately hit the bike button and I’m trying to hit the “Scan” button as quickly as possible. But no! Depending on how fast my internet is at the current moment, that banner will appear and push the Scan button up, which means I end up hitting the banner instead 😟; this is often a really frustrating start to my daily commute.&lt;/p></description></item><item><title>Big Rocks</title><link>https://stephenjayakar.github.io/posts/big-rocks/</link><pubDate>Wed, 23 Nov 2022 13:56:54 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/big-rocks/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://www.linkedin.com/posts/stephenjayakar_big-rocks-leadership-activity-7000927233380925440-CD_X/?utm_source=share&amp;amp;utm_medium=member_desktop"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on LinkedIn&lt;/a> as a meme&lt;/em>.&lt;/p>
+&lt;p>i’ve been thinking about the big rocks every day&lt;/p>
+&lt;p>for those who don’t know: &lt;a
+ href="https://lnkd.in/gZGfgBE9"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>https://lnkd.in/gZGfgBE9&lt;/a>&lt;/p>
+&lt;p>just the other day, i was at whole foods. and i tried to fit the items into my cute tote bag haphazardly. they didn’t fit!!&lt;/p>
+&lt;p>but then, i put the straus whole fat milk first. and then the yogurt. and then i put the cheese, and the cute lil snax. i fit everything! the bag was kinda heavy though.&lt;/p></description></item><item><title>Attachment Styles at Work</title><link>https://stephenjayakar.github.io/posts/attachment-styles-at-work/</link><pubDate>Sat, 17 Sep 2022 13:50:20 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/attachment-styles-at-work/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://www.linkedin.com/posts/stephenjayakar_social-thoughtleadership-attachment-activity-6976933121694846976-fBwY?utm_source=share&amp;amp;utm_medium=member_desktop"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on LinkedIn&lt;/a> as a meme&lt;/em>.&lt;/p>
+&lt;p>my friends are all attachment styles this and attachment styles that when it comes to dating. however, has anyone had the brilliant idea of applying attachment styles to working at a tech company? I didn’t think so! now you might be thinking, “hey Stephen isn’t this a bad idea?” and yes, it is. but just like we should all hope to be secure partners in our relationships, we should also &lt;em>possibly&lt;/em> strive to be secure capitalistic partners at work.&lt;/p></description></item><item><title>Adopting the OpenAPI schema to generate Plaid's SDKs</title><link>https://stephenjayakar.github.io/posts/plaid-adopting-openapi/</link><pubDate>Wed, 15 Sep 2021 13:03:41 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/plaid-adopting-openapi/</guid><description>&lt;p>&lt;em>Originally posted on the &lt;a
+ href="https://plaid.com/blog/adopting-the-openapi-schema-to-generate-plaids-sdks/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>Plaid Engineering Blog&lt;/a> while I was part of Plaid&amp;rsquo;s Developer Experience Team&lt;/em>.&lt;/p>
+&lt;p>The developer experience team focuses on building tools and features that make it as easy as possible for developers to explore our APIs and integrate with Plaid. This year, our team adopted an OpenAPI schema (OAS) as a specification for our API. We launched this schema in beta earlier this year.&lt;/p>
+&lt;p>Our team is responsible for maintaining three sources of truth for our API that allow developers to build and test their integrations:&lt;/p></description></item><item><title>Writing ES6 Everywhere</title><link>https://stephenjayakar.github.io/posts/writing-es6-everywhere/</link><pubDate>Sat, 28 Sep 2019 12:55:44 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/writing-es6-everywhere/</guid><description>&lt;p>&lt;em>Originally posted on the &lt;a
+ href="https://mdb.dev/misc-content/writing-es6-everywhere/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>Mobile Developers of Berkeley blog&lt;/a>&lt;/em>&lt;/p>
+&lt;p>This article is going to be a quick intro to the basics of writing modern JavaScript all the time, rather than being dependent on what environment is supported by a given browser.&lt;/p>
+&lt;h2 id="intro">Intro&lt;a href="#intro" class="post-heading__anchor" aria-hidden="true">#&lt;/a>
+&lt;/h2>
+&lt;p>First, what is ES6?  &lt;strong>E&lt;/strong>CMA&lt;strong>S&lt;/strong>cript 6 is the sixth standardized version of JavaScript, which is ultimately a specification of language features.  ES6 added a ton of really great features that drastically improved the ability to construct larger-scale programs with JavaScript (like constants and block scoping!).  It’s important to note, as ES6 is only a specification, it’s ultimately up to the browsers to provide an implementation for these new features: often, certain browsers lag behind on implementing all these features (i.e. IE).&lt;/p></description></item><item><title>A Quick Dive Into Python's Slots</title><link>https://stephenjayakar.github.io/posts/a-quick-dive-into-pythons-slots/</link><pubDate>Fri, 09 Nov 2018 18:00:10 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/a-quick-dive-into-pythons-slots/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://medium.com/@stephenjayakar/a-quick-dive-into-pythons-slots-72cdc2d334e"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on Medium&lt;/a>&lt;/em>.&lt;/p>
+&lt;p>For my first Medium article, we’re going to go into a quick and easy way to speed up your Python code (and pass those pesky HackerRank tests where you’re just a bit short on time!), as well as some of the technical implementation details for the curious.&lt;/p>
+&lt;p>&lt;code>__slots__&lt;/code> is an attribute you can add to a Python class when defining it. You define slots with the possible attributes that an instance of an object can possess. Here’s how you use &lt;code>__slots__&lt;/code>:&lt;/p></description></item></channel></rss>
