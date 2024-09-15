@@ -33,6 +33,16 @@ title = "Hi, I'm Stephen 👋"
 #   # Merge build config of the theme
 #   _merge = "deep"
 
+[outputs]
+  home = ["html", "searchIndex"]
+
+[outputFormats]
+  [outputFormats.searchIndex]
+    mediaType = "application/json"
+    baseName = "search-index"
+    isPlainText = true
+    notAlternative = true
+
 # This hopefully will be simpler in the future.
 # See: https://github.com/schnerring/hugo-theme-gruvbox/issues/16
 [module]
