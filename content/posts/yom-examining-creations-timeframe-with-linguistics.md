@@ -2,6 +2,10 @@
 title = 'Yom: Examining Creations Timeframe With Linguistics'
 date = 2023-06-14T21:07:37-07:00
 tags = ["Christianity"]
+
+[cover]
+src = "/images/yom.webp"
+alt = "sunrise"
 +++
 
 _Originally posted [on Substack](https://excitedchristianrambles.substack.com/p/yom-examining-creations-timeframe)_

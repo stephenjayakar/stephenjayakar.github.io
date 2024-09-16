@@ -2,11 +2,13 @@
 title = "Frontend developers: stop moving things that I’m about to click on"
 date = 2022-11-25T13:58:48-07:00
 tags = ['tech']
+
+[cover]
+src = "/images/do-better.webp"
+alt = "do better"
 +++
 
 _Originally posted [on Medium](https://medium.com/@stephenjayakar/frontend-developers-stop-moving-things-that-im-about-to-click-on-5827bc0409b3)_.
-
-![do better](/images/do-better.webp)
 
 Please. It’s an insult to my brain. Like, you put the button in one place, and then you’re like “nah, let’s move it somewhere else.” Here are some examples that have annoyed me the most lately:
 

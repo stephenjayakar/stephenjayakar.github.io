@@ -2,6 +2,10 @@
 title = 'The first use of YHWH in the Bible is pretty odd'
 date = 2023-10-10T21:18:22-07:00
 tags = ["christianity"]
+
+[cover]
+src = "/images/yhwh.png"
+alt = "yhwh"
 +++
 
 _Originally posted [on Substack](https://excitedchristianrambles.substack.com/p/the-first-use-of-yhwh-in-the-bible)_

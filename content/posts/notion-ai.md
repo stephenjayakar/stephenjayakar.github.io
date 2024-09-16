@@ -2,13 +2,16 @@
 title = "Why pay for Notion’s AI? I built my own auto-tagging tool in a week!"
 date = 2024-09-04T12:55:02-07:00
 tags = ['tech']
+
+[cover]
+src = "/images/notion-ai.webp"
+alt = "notion ai"
+caption = "We have AI at home, courtesy of ChatGPT"
 +++
 
 _Originally posted [on Medium](https://medium.com/@stephenjayakar/why-pay-for-notions-ai-i-built-my-own-auto-tagging-tool-in-a-week-be2f57fb1b92)_.
 
 I built the thing I talk about in this blog post — if you want to check it out, [it’s here](https://github.com/stephenjayakar/notion-journal-tagger/)!
-
-![notion ai](/images/notion-ai.webp "We have AI at home, courtesy of ChatGPT")
 
 [Notion](https://www.notion.so/), like every tech company, has been shoving AI features down our throats for the last couple of months at the cost of customer UX. **So I disabled them**. You can do this yourself by just messaging support — I got the idea from [this Reddit thread](https://www.reddit.com/r/Notion/comments/1d2mbyx/how_to_remove_notion_ai_from_workspace/), which is one of many. Ever since I disabled it, the UX has at least returned-to-normal, and performance of editing has increased (have you ever noticed how Notion lags a bit every time you press `SPC` so that it can show you the AI toolbar?).
 

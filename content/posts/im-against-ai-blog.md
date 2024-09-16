@@ -2,11 +2,13 @@
 title = "I’m against AIs writing blog posts"
 date = 2022-12-03T14:28:29-07:00
 tags = ['tech']
+
+[cover]
+src = "/images/ai-blog.webp"
+alt = "ai blog"
 +++
 
 _Originally posted [on Medium](https://medium.com/@stephenjayakar/im-against-ais-writing-blog-posts-17900f903c5c)_.
-
-![ai blog](/images/ai-blog.webp)
 
 Why do we need AI to write blog posts? There’s been a trend of these AI tools to write things for you:
 

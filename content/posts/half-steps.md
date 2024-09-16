@@ -2,11 +2,13 @@
 title = "I made a web app to get better at adding half-steps to notes"
 date = 2023-12-27T12:39:25-07:00
 tags = ['tech', 'music']
+
+[cover]
+src = "/images/half-steps-1.png"
+alt = "half-steps-1"
 +++
 
 _Originally posted [on Substack](https://stephenjayakar.substack.com/p/i-made-a-web-app-to-get-better-at?r=1pf9f2&utm_medium=ios&utm_campaign=post&triedRedirect=true)_.
-
-![half-steps-1](/images/half-steps-1.png)
 
 Try it out [here](https://music-math.vercel.app/) if you like pressing buttons as much as I do! [GitHub](https://github.com/stephenjayakar/music-math) if you like reading code.
 

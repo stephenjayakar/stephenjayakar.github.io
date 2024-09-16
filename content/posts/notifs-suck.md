@@ -2,12 +2,13 @@
 title = 'Notifications Suck'
 date = 2023-06-02T14:38:05-07:00
 tags = ['tech']
+
+[cover]
+src = "/images/hungry-stephen.webp"
+alt = "hungry stephen"
 +++
 
 _Originally posted [on Medium](https://medium.com/@stephenjayakar/notifications-suck-6b33495f9e8a)_.
-
-![hungry stephen](/images/hungry-stephen.webp)
-
 
 they really do. I have most of them turned off on my phone.
 
