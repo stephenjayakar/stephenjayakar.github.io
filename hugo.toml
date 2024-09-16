@@ -109,6 +109,9 @@ title = "Hi, I'm Stephen 👋"
   subtitle = ""
   description = ""
 
+  [params.meta]
+    favicon = true
+
   [params.logo]
     text = "stephenjayakar.com"
     url = "/"
