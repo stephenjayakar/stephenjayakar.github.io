@@ -1,6 +1,7 @@
 +++
 title = "What I'm up to"
 date = 2024-09-23T17:05:52-07:00
+tags = ["tech"]
 +++
 
 A lot of people have been asking what I've been up to since I left Plaid at the beginning of this month. I was at Plaid for 4 years, which were amazing and I am very thankful for the amazing people I've met and work I've been able to do.
@@ -19,3 +20,5 @@ After some preliminary testing, it's not amazing out-of-the-box. I got some dece
 * different from even normal decompilation, as video game decompilation is what we call "match decompilation" - I might write more about this in the future and its tradeoffs
 
 If the LLM approach doesn't work, I'll probably investigate some other spikes before washing my hands and writing a nice public postmortem, but yeah, this is what I've been spending my time on!
+
+I also [spun up this site](/posts/blogging-platform) after I left my job, as Medium & Substack just weren't cutting it for me.
