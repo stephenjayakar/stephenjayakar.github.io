@@ -74,12 +74,6 @@ title = "Hi, I'm Stephen 👋"
     source = "static"
     target = "static"
   [[module.mounts]]
-    source = "node_modules/prismjs"
-    target = "assets/prismjs"
-  [[module.mounts]]
-    source = "node_modules/prism-themes/themes"
-    target = "assets/prism-themes"
-  [[module.mounts]]
     source = "node_modules/typeface-fira-code/files"
     target = "static/fonts"
   [[module.mounts]]
@@ -95,12 +89,21 @@ title = "Hi, I'm Stephen 👋"
   [[module.mounts]]
     source = "node_modules/katex"
     target = "assets/katex"
+  [[module.mounts]]
+    source = "node_modules/prismjs"
+    target = "assets/prismjs"
+  [[module.mounts]]
+    source = "node_modules/prism-themes/themes"
+    target = "assets/prism-themes"
+  [[module.mounts]]
+    source = "prismjs"
+    target = "assets/prismjs"
 
 [params]
   math = true
   # dark or light, defaults to light. Local storage and OS preference override this param. For more details see: 
   # https://github.com/schnerring/hugo-theme-gruvbox/issues/34#issuecomment-1235870375
-  defaultTheme = "light"
+  defaultTheme = "dark"
   # gray red green yellow blue purple aqua orange, defaults to blue
   themeColor = "orange"
   # soft medium hard, defaults to medium
@@ -125,7 +128,9 @@ title = "Hi, I'm Stephen 👋"
       "bash",
       "diff",
       "toml",
-      "python"
+      "python",
+      "c",
+      "powerpc-asm"
     ]
     plugins = [
       "normalize-whitespace",
