@@ -18,7 +18,7 @@ Prism.languages['powerpc-asm'] = {
         greedy: true
     },
     'instruction': {
-        pattern: /\b(?:addi|add|stw|stwu|blr|mul|div|sub|and|or|xor|cmp|mov|l|cmp|j|b|nop|call|ret|jump|nop|beq|bne|blt|bgt|ble|bge)\b/i,
+        pattern: /\b(?:addi|add|stw|stwu|blr|mul|div|sub|and|or|xor|cmp|mov|l|cmp|j|b|nop|call|ret|jump|nop|beq|bne|blt|bgt|ble|bge|mflr|li|bl|lwz|mtlr)\b/i,
         alias: 'function'
     },
     'register': {
