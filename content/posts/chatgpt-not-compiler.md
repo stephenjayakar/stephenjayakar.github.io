@@ -1,20 +1,24 @@
 +++
 title = "ChatGPT isn't a decompiler... yet"
-date = 2024-11-28T18:26:06-08:00
+date = 2024-12-10T18:26:06-08:00
 tags = ['tech']
+
+[cover]
+src = "/images/decomp-cover.png"
+alt = "computer"
 +++
 
 Previous article: [What I'm up to](https://stephenjayakar.com/posts/what-i-have-been-up-to/)
 
-  * [ ] Image of a computer spitting out gibberish and me yelling at it to tell me what it's doing!!! or something appropriately silly
+  * [ ] TODOs are in Notion
 
 # Abstract / Results
 
-It feels a bit pretentious to open a blog post with an abstract. However, I wanted to communicate concisely _what_ I tried to do, and what the open areas of exploration are up front. Those who are interested can dig more.
+It feels a bit pretentious to open a blog post with an abstract. However, I wanted to communicate up front concisely _what_ I tried to do, and what the open areas of exploration are. Those who are interested can dig more.
 
-**I wanted to make ChatGPT into a magic decompiler for PowerPC assembly to supercharge the Melee decompilation project.** I observed over a year ago that ChatGPT was surprisingly good at understanding PowerPC assembly language and generating C code that was logically equivalent. I also saw other papers that were attempting to use LLMs as decompilers.
+**I wanted to make ChatGPT into a magic decompiler for PowerPC assembly to supercharge the Super Smash Bros. Melee ("Melee") decompilation project.** I observed over a year ago that ChatGPT was surprisingly good at understanding PowerPC assembly language and generating C code that was logically equivalent. I also saw other papers that were attempting to use LLMs as decompilers.
 
-Problem statement: given the PowerPC ASM `a1` of a function `f1`, come up with C code that compiles to `a1` (note: the C code doesn't have to be the same as the original. There are many C programs that map to the same assembly). This is called **match-based decompilation**, as merely being logically equivalent is not sufficient.
+Problem statement: given the PowerPC ASM `a1` of a function `f1`, come up with C code that compiles to `a2` where `a2 == a1` (note: the C code doesn't have to be the same as the original. There are many C programs that map to the same assembly). This is called **match-based decompilation**, as merely being logically equivalent is not sufficient. Also, in the case where `a2` isn't a match, iteratively improve on the result.
 
 `gpt-4o` was able to often generate code that was logically similar or the same. It was also **able to iteratively correct compiler errors** (even for an older dialect of C). However, it was **unable to improve on its results** even when given the assembly diffs in a digestible format. It showed understanding of the assembly diffs, but wasn't able to actualize that into logical changes to the C code. I also briefly investigated fine tuning and didn't get great results.
 
@@ -22,54 +26,9 @@ There are a couple of explorations left to be tried, but before I get into that,
 * This isn't a classic RLHF problem. You don't _need_ human feedback at all. Especially with the automated tooling I set up, you can actually automatically "score" how close the ASM is to the target ASM. So maybe a more classic RL approach would be interesting
 * Coming up with C code that compiles to the same ASM isn't actually all that's needed for the decompilation project. This tool wouldn't be powerful enough to wire in struct definitions from other parts of the codebase, or even handle imports. On the other hand, LLMs with retrieval could actually be pretty good at this.
 
-Before I get into the work that I ended up doing to test my hypothesis, some background info first.
-
-# Background info
-
-File types
-* OBJ: This is the output of a compiler. It contains binary machine code that a computer can execute. This is _not_ the readable ASM that we're dealing with, but the binary encoding of it. Looks like gibberish when opened, with occasional strings like `"Hello"`
-![obj](/images/decomp-obj.png)
-    * You can see that this file says that it's an ELF in the "header", which is the object file type for PowerPC.
-* ASM: This is a human-readable representation of the machine code. It's a programming language to some extent, but much lower level than C. For PowerPC, you'll see instructions like `li r1 3`.
-```asm
-.fn f1, global
-stwu r1, -0x18(r1)
-add r0, r3, r4
-stw r0, 0x10(r1)
-addi r3, r1, 0x10
-addi r1, r1, 0x18
-blr
-.endfn f1
-```
-* C: This is C code, which is the closest to human-readable
-```c
-int* f1(int x, int y) {
-  int z = x + y;
-  return &z;
-}
-```
-
-Tools
-* **Compiler**: this converts C code to an OBJ. This is often *a lossy process* and the original C code cannot be recovered once you just have the OBJ file, especially as you turn on optimization flags.
-* **Decompiler**: this would convert either OBJ or ASM -> C. For this particular project, a perfect one of these doesn't exist and we're looking for something close.
-* **Disassembler**: OBJ -> ASM. This takes a compiled object file and spits out a human-readable representation of the ASM. Sometimes, it'll even add nice quality-of-life fixes such as changing register arguments from numbers to names like `r1` or `sp`.
-* **Assembler**: ASM -> OBJ. This converts from an ASM to an OBJ. I needed this specifically because the ASM differ I used, `asm-differ` actually best worked when comparing two object files (but the whole process takes in an ASM file as input).
-
-Specific tools to this project:
-* **`decomp.me`**: This is a batteries-included collaborative [website](https://decomp.me/) where you can interactively & collaboratively decompile video games. It's pretty crazy this exists. There are so many things you _don't have to know anything about_ to do work here; hell, I don't think you even really need to know how to code. A lot of my project was understanding how `decomp.me` works internally.
-* **`m2c`** ([GitHub](https://github.com/matt-kempster/m2c)): This is the default decompiler used for `decomp.me`. It's a great starting point for when you just have ASM, don't get me wrong, but it:
-    * doesn't produce code that compiles
-    * doesn't really take matching into account
-* **`mwcc`**: this is the MetroWerks C compiler. I'm specifically using a version that's identical (or close to) the one that the Melee team used, with the same flags as well. More on that later
-* **`ppc-linux-objdump`**: the disassembler I used. I think this is from `homebrew`.
-* **`powerpc-eabi-as`**: The assembler I used. I believe I got this from `binutils`
-* **`asm-differ`** ([GitHub](https://github.com/simonlindholm/asm-differ)): The ASM differ & scorer that `decomp.me` uses. Was pretty nontrivial to get working the same way. Both `decomp.me` and my project had to do some workarounds to call it conveniently.
-
-I'll be referring to these formats / tools, so feel free to return to this section.
-
 # What we're trying to do
 
-Why do game decompilation? And why Melee? Valid questions!
+So we're trying to write a magic-decompiler for Melee. You might ask, why do game decompilation? And why Melee? Valid questions!
 
 ## Why Melee?
 
@@ -77,7 +36,11 @@ Simple. The game is dear to my heart even if I don't play it that much anymore, 
 * power future modifications
 * make it more accessible for new developers to join the fray
 
-## Match-based decompilation
+## Game Decompilation?
+
+There have been a bunch of successful game decompilation projects in the last couple of years, which were then followed by some really cool modifications to the games. One of my favorite ones is [adding raytracing to Super Mario 64](https://www.youtube.com/watch?v=ChqP2ecA8qE) which adds beautiful accurate shadows, reflections, and [global illumination](https://en.wikipedia.org/wiki/Global_illumination).
+
+Game decompilation isn't the same as normal decompilation that security engineers do with Ghidra. What we're trying to do is called **match-based decompilation**.
 
 Assuming a game is written in the C programming language and we have the game binary (in whatever architecture the console is in. For the [Gamecube, it's PowerPC](https://en.wikipedia.org/wiki/GameCube)), we want to attempt to reconstruct C code that is _similar_ to what the game developers wrote themselves.
 
@@ -188,6 +151,53 @@ Now you might reasonably ask, why do we want the exact same assembly? Some reaso
 * We want to be able to build the exact ROM of the game. This is the easiest way to verify that the project is 100% there, whereas verifying logical equivalentness is non-trivial
 * Some existing understanding / mods of the game being decompiled rely on the program being laid out the exact same way. Modifying this extensively will make those (albeit brittle) changes not work anymore
 
+Now, it's going to get more technical. First, some background info!
+
+# Background info
+
+### File types
+
+* OBJ: This is the output of a compiler. It contains binary machine code that a computer can execute. This is _not_ the readable ASM that we're dealing with, but the binary encoding of it. Looks like gibberish when opened, with occasional strings like `"Hello"`
+![obj](/images/decomp-obj.png)
+    * You can see that this file says that it's an ELF in the "header", which is the object file type for PowerPC.
+* ASM: This is a human-readable representation of the machine code. It's a programming language to some extent, but much lower level than C. For PowerPC, you'll see instructions like `li r1 3`.
+```asm
+.fn f1, global
+stwu r1, -0x18(r1)
+add r0, r3, r4
+stw r0, 0x10(r1)
+addi r3, r1, 0x10
+addi r1, r1, 0x18
+blr
+.endfn f1
+```
+* C: This is C code, which is the closest to human-readable, and what we're looking for
+```c
+int* f1(int x, int y) {
+  int z = x + y;
+  return &z;
+}
+```
+
+### Tools
+
+* **Compiler**: this converts C code to an OBJ. This is often *a lossy process* and the original C code cannot be recovered once you just have the OBJ file, especially as you turn on optimization flags.
+* **Decompiler**: this would convert either OBJ or ASM -> C. For this particular project, a perfect decompiler doesn't exist but we're looking for something close.
+* **Disassembler**: OBJ -> ASM. This takes a compiled object file and spits out a human-readable representation of the ASM. Sometimes, it'll even add nice quality-of-life fixes such as changing register arguments from numbers to names like `r1` or `sp`.
+* **Assembler**: ASM -> OBJ. This converts from an ASM to an OBJ. I needed this specifically because the ASM differ I used, `asm-differ` actually best worked when comparing two object files (but the whole process takes in an ASM file as input).
+
+**Specific tools to this project**:
+* **`decomp.me`**: This is a batteries-included collaborative [website](https://decomp.me/) where you can interactively & collaboratively decompile video games. It's pretty crazy this exists. You barely have to understand how decompiling works to use this tool effectively; hell, I don't think you even really need to know how to code. A lot of my project was understanding how `decomp.me` works internally.
+* **`m2c`** ([GitHub](https://github.com/matt-kempster/m2c)): This is the default decompiler used for `decomp.me`. It's a great starting point for when you just have ASM, don't get me wrong, but it:
+    * doesn't produce code that compiles
+    * doesn't really take matching into account
+* **`mwcc`**: this is the MetroWerks C compiler. I'm specifically using a version that's identical (or close to) the one that the Melee team used, with the same flags as well.
+* **`dtk disasm`** ([GitHub](https://github.com/encounter/decomp-toolkit?tab=readme-ov-file#elf-disasm)): The disassembler I used. This tool is used by the Melee decomp project, and the assembly in the GitHub follows the output format.
+* **`powerpc-eabi-as`**: The assembler I used.
+* **`asm-differ`** ([GitHub](https://github.com/simonlindholm/asm-differ)): The ASM differ & scorer that `decomp.me` uses. Was pretty nontrivial to get working the same way. Both `decomp.me` and my project had to do some workarounds to call it conveniently.
+
+I'll be referring to these formats / tools, so feel free to return to this section. I'll also explain how to get some of these later.
+
 # What did I do?
 
 When I was in the prototyping phase, I was just giving ChatGPT a copy-and-pasted prompt and an assembly file and plugging in the C it gave me to decomp.me. While the code was impressive and often a close logical match, the code often didn't compile (remember, the version of C we're using is not what most people are writing today!).
@@ -203,123 +213,93 @@ I realized that the iterative process that I did to get the code to compile coul
 
 At this point of time, I hadn't verified if ChatGPT was capable of improving the ASM score. It was too difficult to hold onto all these C files and get them to compile while juggling around a bunch of prompts.
 
-# Compiling locally TODO left off here
+# Compiling locally
 
-Rough outline
-* Getting the `binutils`
-* 
-* Getting C / ASM pairs
+The objective here is to be able to take a small C function, `f1`, and get the resulting ASM, ideally in the same format as the Melee codebase.
 
----
-Cut line ^. I am mostly rewriting above this
-# Roadblocks
-
-* Talk about how `decomp.me` is its own tool and generally requires you to interact with a UI, but I wanted to run all of this locally
-* Essentially have different automated parts that all can run individually
-
-# Just write a "what did I do" section and yap. Then edit it later.
-
-## Learned the existing tools (decomp.me)
-
-  * [ ] I talk about OBJ, I should probably explain _what_ it is. I don't think it's entirely an executable but it pretty much is
-
-[decomp.me](https://decomp.me/) is an online tool that allows people to collaborate on decompiling a given assembly. It's really cool as it handles a ton of complexity so that people don't need to download random archaic binaries to get started. However, that comes with the tradeoff of the fact that it then becomes really hard to:
-* figure out what the website is actually doing
-* download & setup all the tools yourself.
-
-There's a concept of a `scratch`, which is:
-* an ASM file
-* what compiler & flags we think the developers used
-* the target architecture (reminder, PowerPC)
-* the context (out-of-scope for this blogpost)
-
-Once you give the website these things, it'll create an editor with C on the left and ASM on the right. There's a _lot_ going on when you create the scratch & interact with it, so let's try to break it down a bit. I had to introspect their [public GitHub](https://github.com/decompme/decomp.me) a decent amount to figure these things out.
-
-When you create a scratch w/ the given configurations, it fetches the correct:
-* compiler: C -> obj
-* decompiler: ASM -> C (which is often not that good, but better than nothing. For Gamecube, we're using [`m2c`](https://github.com/matt-kempster/m2c))
-* assembler: ASM -> obj
-* `asm-differ`: this is a library that allows us to compare two ASMs. Technically, it's being used to compare two object files.
-
-For architectures that are older, these tools are often really old binaries (think 1999) or tools that were written by the open-source community. To ground the further discussion, let me show you a brief screenshot of decomp.me's UI:
-
-![decomp me 1](/images/decomp-me-1.png)
-
-This is what the editor looks like right after you import some assembly. Notice that the assembly is on the right of the screen under `Target`. `Current` would have assembly from compiling the code on the left, but the code on the left right now isn't compiling.
-
-I didn't actually type in the code on the left. The code on the left is the default output of `m2c`, a decompiler that takes PowerPC ASM instructions and spits out C. The project isn't "complete" in that the code it spit out here doesn't compile, and even if it did compile, it most likely doesn't match the assembly in `Target`.
-
-Now, you can edit the C code to either get it to compile, or to get it to get closer and closer to the target assembly.
-
-Since I want to replicate most of this functionality locally, I needed to figure out:
-* Exactly what tools decomp.me was using and for what steps
-* How to run these tools locally, and with what arguments
-
-### Downloading the binaries
-
-Well, before we even learn how to call these tools, we have to get them. It's pretty simple: if you have the [Melee decomp project](https://github.com/doldecomp/melee) downloaded locally, you just run:
+First, we have to start by getting the binaries! It took me a while to figure this out, but the Melee codebase has a helper tool to download a lot of the common binaries. You can just run:
 
 ```sh
 ninja build/binutils
 ```
 
-This will download all of the binutils you need to `build/binutils`.
+This will download a bunch of tools including the assembler we'll be using. You also might just want to run `ninja` to download the rest of the tools, as we'll also need to download
+* `dtk`
+* the compiler. This ends up being in `build/compilers`
 
-### Figuring out how to call them
-
-  * [ ] I actually added the stuff here -> the compiling from C -> OBJ. Not sure if this section is necessary anymore
-
-## Get it compiling locally (C -> OBJ)
-
-The most important tool to figure out how to call is the compiler itself. If we (as a collective) don't figure that out, then there is almost no way that someone could match-decompile the game. Luckily, the Melee community has done the hard work of figuring out what flags and arguments were used, as well as some patches to the compiler itself. We're using the MetroWerks C compiler v1.2.5n, and invoking it as such:
+Once I got these binaries, I realized that some of them (namely, the compiler) are Windows programs. As I am developing on a Mac, it took some tinkering to get the compiler to work using `wine`. My invocation ended up looking something like this (I got the args from `decomp.me`):
 
 ```sh
 wine bin/mwcceppc.exe -Cpp_exceptions off -proc gekko -fp hard -fp_contract on -O4,p -enum int -nodefaults -inline auto -c -o temp.o FILENAME
 ```
 
-As this is an old program meant to be run on Windows and I am using a Macbook, I had to use `wine` to invoke the compiler. This is a little annoying as it makes it take much much longer to startup.
+Once I had my `.o` files (OBJ), to get the ASM, you have to run it through a disassembler. I ended up calling that like this:
 
-## Get the assembly from a given object (OBJ -> ASM)
+```sh
+../melee/build/tools/dtk elf disasm outputs/temp.o temp.s
+```
 
-## Get the ASM into the same format as the Melee codebase (+ what decomp.me accepts)
+So the whole flow looks something like this:
+1. ChatGPT generates a toy C program
+2. We run it through the compiler, `mwcc`, to get an OBJ file
+3. We then run the OBJ file through a disassembler, `dtk disasm`, to get an assembly file, `.s`
 
-## Compare two ASMs, get a diff & score
+# Comparing ASM files and scoring them
 
-## Wire these all together to go from C -> ASM -> diff
+Now that we got ASM output, we want to be able to compare two ASM files. You could do something as simple as `diff` the two `.s` files. However, I noticed that `decomp.me` had a much more sophisticated differ, that also included scoring. I've shown screenshots earlier, but here's a more complicated example:
 
-## Get ChatGPT to go from ASM -> C
+![decomp me complicated](/images/decomp-me-complicated.png)
 
-## Wire in ChatGPT to go from ASM -> C -> ASM2 -> score, and then loop
+_Also, check out the insanity on line 50. There are TWO `b 90`s, which is nonsensical. `b` is just an unconditional jump, which means that line 54 **should be unreachable**. `mwcc`'s output is sometimes not meant to be looked at closely :')_
 
-### Fix compiler errors w/ ChatGPT
+There are a lot of nice features here:
+* scores. both % match as well as a number that decreases -> 0 as you get closer.
+* same as `diff`: lines missing or additional lines
+* register errors, marked with `r`
+* not shown, but immediate errors are marked with `i`
 
-## Fine tuning ChatGPT
+I had already tried giving ChatGPT simple `diff` outputs to see if it could improve the matches, and didn't succeed, so I hoped that giving it a richer picture of the diff would improve its output.
 
-# Further explorations
+I ended up going on a deep dive to see how `decomp.me` accomplished this. After some trudging through the codebase, I found where the magic happens: [this file](https://github.com/decompme/decomp.me/blob/master/backend/coreapp/diff_wrapper.py#L1) wraps a library called `asm-differ` ([GitHub](https://github.com/simonlindholm/asm-differ)).
 
-Thanks for making it here! It's a shame I don't have infinite time & motivation (and money to train models), or I would probably keep poking at this. Here are the most promising trees to bark up:
+At first, I was excited to find out that it was a library already by itself. However, the program isn't super easy to call for a one-off situation: it's meant to be used with a C project. I did go through the pains of configuring it properly to make sure it's output was what I was looking for first. Then, I ended up doing something similar to what `decomp.me` did - write a wrapper program that calls into internal methods of `asm-differ` and manufactures a project config in-memory. [Here's](https://github.com/stephenjayakar/magic-decomp/blob/main/diff_wrapper.py) where I did that. It's a little jank as it definitely expects some files to be in the right places, but more on that later. The ASM output ends up being almost exactly like the website's, which is a huge win! 🎊
 
-### Training `decomp-permuter`
+# The state machine
 
-[`decomp-permuter`](https://github.com/simonlindholm/decomp-permuter) is a tool that I've used for a couple of "matches" - it randomly permutes the C code you give it to try to match the ASM perfectly. It runs in parallel and is often really good at getting the match when you've already gotten really close yourself.
+I didn't realize that this was a state machine at first. I went into this portion of the project like "I need to call ChatGPT in a loop, and I need to glue all of these tools together." I was just copying and pasting long bash commands and pasting inputs and outputs into ChatGPT, and so testing many examples at scale was just not feasible.
 
-I didn't actually spend as much time investigating this tool as I should have, considering that it's very similar to the infrastructure I set up in my project. Namely:
-* It generates C code
-* It compiles it
-* It compares the ASM to the target ASM
+There are two processes at play here:
+1. Fix errors: Given a C program that doesn't compile, fix it while keeping the logic the same
+2. Improve ASM score: Given a C program that _does compile_ but doesn't match, try to improve the matching score.
 
-Which is pretty much all of the pieces I struggled with. One reason I stayed away from it was because when I used to use the tool locally, I was actually getting different `diff`  results from the tool vs. `decomp.me`. Now that I actually understand how the underlying tools work, it would be great to revisit this project.
+When asking ChatGPT for C code, the initial state looked like this:
 
-Specifically, the thing someone would want to investigate is coming up with a trained version of this permuter to pick specific permutations based on:
-* the input C code
-* the ASM diff
-* the compiler.
+![decomp-initial-state](/images/decomp-initial-state.png)
 
-There are [some weights](https://github.com/simonlindholm/decomp-permuter/blob/main/default_weights.toml#L44-L50) that appear to be custom for the `mwcc`, which is the MetroWerks C compiler for PowerPC (which is what's used for Melee). This isn't complicated enough though to actually work really fast, both based on experience and my above definition of the inputs I think that are important.
+Fixing errors was pretty simple. We just compile the program, get the errors, and then ask ChatGPT to attempt to fix the errors. I initially tried to get ChatGPT to fix the errors by just pasting in the last compile run's errors. **This generally took around 5 passes to get code that compiled.** A simple improvement was to send all of ChatGPT's attempts in a chain from the last success, which then **got it down to 1-2 passes**. Once we get C code that compiles, we transition to (2):
 
-My 2 cents - this feels like this could work really well. It possibly doesn't even have to be a generalized search model; you could overfit to a solution for 1 problem, and then move onto the next. Then, you can prune the starting parameters that work well after observing a couple of C ASM pairs, and then have it start off on a better foot the next time. But I'm not an ML researcher + I still have a lot to learn, so I leave this open.
+![decomp-fix](/images/decomp-fix.png "Notably, I didn't include all the errors that ever happened. This process anchors off of the last transition from compiler success -> failure, or the initial C code returned from ChatGPT, as I didn't want to blow up the context window. You'll see this as a common theme.")
 
-### Generating a larger training set
+The candidate phase is a bit more interesting and actually tests the hypothesis. From a high level, we want to compare the assemblies of the C code we have and the assembly target, get a diff that is easy-to-interpret, and ask ChatGPT to attempt to improve the C code to be a closer match.
+
+We start with a candidate, \(C_1\):
+1. We first need to get the ASM after compiling \(C_1\). We compile the program to get an OBJ file, `c1.o`, and then we run it through `dtk disasm` to get ASM \(A_1\).
+2. Then we have to diff \(A_1\) and \(A_T\). We use `asm-differ` to get both a score & a line-by-line diff. Let's call this \(D_1\).
+3. Then, given \(C_1\), the score, and \(D_1\) (which contains both \(A_1\) and \(A_T\)), we ask ChatGPT to generate a new candidate that is a closer match.
+
+We get \(C_2\). Now, if you've been following along, you can probably tell that this is going to be a loop of some kind:
+
+![decomp-candidate](/images/decomp-candidate.png "There's a subtle difference with the list of candidates. This is a global list instead of local to the state, as we always pass in all of the successful candidates to ChatGPT. The error list resets every time we have a new code example to anchor on.")
+
+Ultimately, the functionality of this program was to improve the ASM score, so I disregarded blowing up the context window for this phase since I hoped having more information would improve the loop's result. Also, the error fixing loop actually terminated pretty quickly, so keeping track of all the \((c_x, e_x)\) pairs was unnecessary.
+
+# Testing
+
+Now that the improvement loop was finished, it was time to run it! But before that, we need some input datasets.
+
+## Training set
+
+The nice thing about creating a list of inputs and expected outputs is that it doubles as a training set. I had a strong inclination that results wouldn't be good without fine tuning.
 
 I came up with a small training set for `mwcc` [here](https://github.com/stephenjayakar/decomp-0-context-training/tree/main/general). The repo is separated into 10 `/general` examples and 3 `/melee` examples. You might ask: why make so many general examples if you're trying to decompile Melee?
 
@@ -335,12 +315,44 @@ Coming up with general examples was so easy:
 
 Coming up with Melee examples was harder. I essentially had to find really small functions, or attempt to rip out all the context from an already-solved portion of the Melee codebase. That means not using any structs, attempting to be closer to the ASM than even the solution, etc. It wasn't a pleasant process and I couldn't figure out how to automate it.
 
-Now that I'm looking back on it, I could have actually just scoured decomp.me for less idiomatic matches as training data, but regardless, I don't think a lack of Melee examples was actually what was holding back this project.
+## Actually testing
 
-### Try out other models
+I ran most of the general code examples through the whole loop. **The results weren't great**. ChatGPT:
+* was able to fix compiler errors
+* seemed to understand the ASM diffs and was able to identify issues
+* was able to generate C code that logically was pretty similar or identical to the ASM
+* was **not able** to substantially improve the match score.
 
-I did try out `o1-preview`. It was better than `4o`, and it did show a slight ability to iterate. However, it still wasn't able to get to a solution. I decided the runtime was way too high to justify using it.
+I tried this on a bunch of different code examples. Here's a graph of one of the longer runs:
 
-I didn't try Claude or anything - could be interesting!
+![decomp-graph](/images/decomp-graph.png "This doesn't include the compiler error fix passes. The score generally doesn't improve and kind of fluctuates about its starting point.")
 
-# Appendix
+I was able to reproduce this on many different code examples & runs. 20 passes was around where I started running out of context window as the `asm-differ` output was pretty long.
+
+So at this point I decided that the hypothesis was false for the out-of-box model.
+
+# Fine tuning
+
+I didn't really go that deep in on fine-tuning. I was mostly curious about the flow for `gpt-4o` and if this would be a potential magic bullet.
+
+I already had examples. The OpenAI docs generally recommended to use `4o-mini` if your task was already doable with `4o` and you wanted to do it for cheaper after fine tuning. As I knew that the task _wasn't doable with `4o`_, I ended up opting for fine-tuning `4o`.
+
+The fine tuning UI was broken which was sad (I filed a ticket), but then I just curled their backend to start the fine-tuning job. $21 later, I realized that I didn't have the money to keep doing this LOL. I did get a pretty graph:
+
+![decomp-ft](/images/decomp-ft.png)
+
+The really low training loss was interesting to me. I spent some time testing the fine-tuned model. My observations:
+* The fine-tuned model basically memorized the training examples. Given the _exact same prompt_, it would spit out C code that had a really low score of like 20, which is an over 99% match.
+* However, varying the TEXT in the prompt (not the ASM) would make the match much worse
+* An example out of the training set didn't improve from my base model tests.
+
+I was hoping that fine-tuning the model would help it extrapolate to the "C that `mwcc` would compile to a given ASM." It did not do that, and it also didn't even figure out what type of C code would more easily compile with `mwcc`. 😥
+
+# Conclusion
+
+I really enjoyed this project as my first serious AI project. If I didn't try it, I would have gone insane. The first time over a year ago I saw ChatGPT spit out C code after looking at some assembly, I was haunted by what could be if AI was actually a magic decompiler. My thoughts were racing on the ethics of solving this problem, but they got ahead of the actual reality:
+
+**AI isn't a magic decompiler**. But that doesn't need to be the end of the story. On my [GitHub for this project](https://github.com/stephenjayakar/magic-decomp), I've detailed some alternate explorations that could be really fruitful, but I just ran out of time (or money). The problem statement is still compelling enough to me that I might work on it in the future.
+
+Thanks for reading! Now I'll probably go look for a job :)
+
