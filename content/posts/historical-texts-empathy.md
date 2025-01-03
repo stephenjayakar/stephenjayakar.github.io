@@ -17,7 +17,7 @@ Here’s a specific controversy to ground my point - the New Testament’s views
 Today, we believe in the personal liberty of all. Autonomy is sacred; we’re willing to die so that *others* can have freedom. So reading text like the above can be difficult and triggering. Here’s a rough overview of responses I’ve heard to this passage:
 
 1. **Downplaying the meaning and implications of the text**: “slavery wasn’t that bad back then” or “at least it wasn’t chattel slavery”
-2. Anger at how this passage seems to justify slavery: "Paul is saying that it's okay for masters to keep on owning and controlling slaves, and that is unacceptable."
+2. Anger at how this passage seems to justify slavery: "**Paul is saying that it's okay for masters to keep on owning and controlling slaves, and that is unacceptable**."
 3. Not a prevalent interpretation now, but was used by slave owners in the US South in the past: “**this passage justifies slavery so it is okay for us to own slaves**”
 4. More complicated, but **interpret the point Paul is making within historical context**.
 
