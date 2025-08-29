@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on Hi, I&#39;m Stephen 👋</title>
+    <link>http://localhost:1313/en/tags/meta/</link>
+    <description>Recent content in Meta on Hi, I&#39;m Stephen 👋</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Sep 2024 11:57:45 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choosing a Blogging Platform: Aesthetic and Technical Considerations</title>
+      <link>http://localhost:1313/en/posts/blogging-platform/</link>
+      <pubDate>Sat, 14 Sep 2024 11:57:45 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/blogging-platform/</guid>
+      <description>&lt;p&gt;In my journey as a blogger, I’ve published posts across platforms like Medium, Substack, and other proprietary blogging stacks. When writing more and more technical stuff, I realized that some stacks were definitely better than others.&lt;/p&gt;&#xA;&lt;p&gt;When consuming other people&amp;rsquo;s blog posts, the first thing that stood out to me was aesthetics. You get an impression about the platform and the person simply by the details of how their text looks. Does their code have great, language-specific highlights? Do they use &lt;code&gt;monospace&lt;/code&gt; + does their platform support it? How is the image formatting? What about the base color scheme?&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

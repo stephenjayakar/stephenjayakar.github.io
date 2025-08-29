@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/tags/tech/</link><description>Recent content in Tech on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 10 Dec 2024 00:00:06 -0800</lastBuildDate><atom:link href="https://stephenjayakar.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT isn't a decompiler... yet</title><link>https://stephenjayakar.github.io/posts/chatgpt-not-compiler/</link><pubDate>Tue, 10 Dec 2024 00:00:06 -0800</pubDate><guid>https://stephenjayakar.github.io/posts/chatgpt-not-compiler/</guid><description>&lt;p>Previous article: &lt;a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/tags/tech/</link><description>Recent content in Tech on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 29 Aug 2025 15:32:29 -0700</lastBuildDate><atom:link href="https://stephenjayakar.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>`opencode` or Claude Code?</title><link>https://stephenjayakar.github.io/posts/opencode-claude/</link><pubDate>Fri, 29 Aug 2025 15:32:29 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/opencode-claude/</guid><description>&lt;p>&lt;em>Just so that people don&amp;rsquo;t get confused, &lt;a
+ href="https://opencode.ai/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>this opencode&lt;/a>. I&amp;rsquo;m not a shill I promise.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>TL;DR&lt;/strong>: if you have time to experiment, use &lt;code>opencode&lt;/code> with &lt;code>sonnet-4&lt;/code>. Otherwise, use Claude Code.&lt;/p>
+&lt;p>I&amp;rsquo;ve spent a lot of time with &lt;code>opencode&lt;/code> as well as Claude Code. I&amp;rsquo;m going to use this as a live document talking about the tradeoffs of using either tool.&lt;/p>
+&lt;p>First, Claude Code is roughly SotA for a terminal AI editor for fullstack work (my domain). I&amp;rsquo;ve also tried:&lt;/p></description></item><item><title>ChatGPT isn't a decompiler... yet</title><link>https://stephenjayakar.github.io/posts/chatgpt-not-compiler/</link><pubDate>Tue, 10 Dec 2024 00:00:06 -0800</pubDate><guid>https://stephenjayakar.github.io/posts/chatgpt-not-compiler/</guid><description>&lt;p>Previous article: &lt;a
  href="https://stephenjayakar.com/posts/what-i-have-been-up-to/"
  
  
@@ -149,7 +158,23 @@
 &lt;h3 id="lyft-bike-scan-button">Lyft Bike Scan Button&lt;a href="#lyft-bike-scan-button" class="post-heading__anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
 &lt;!-- raw HTML omitted -->
-&lt;p>This one sucks as I’m often opening the Lyft app just to ride bikes. So I immediately hit the bike button and I’m trying to hit the “Scan” button as quickly as possible. But no! Depending on how fast my internet is at the current moment, that banner will appear and push the Scan button up, which means I end up hitting the banner instead 😟; this is often a really frustrating start to my daily commute.&lt;/p></description></item><item><title>Attachment Styles at Work</title><link>https://stephenjayakar.github.io/posts/attachment-styles-at-work/</link><pubDate>Sat, 17 Sep 2022 13:50:20 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/attachment-styles-at-work/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+&lt;p>This one sucks as I’m often opening the Lyft app just to ride bikes. So I immediately hit the bike button and I’m trying to hit the “Scan” button as quickly as possible. But no! Depending on how fast my internet is at the current moment, that banner will appear and push the Scan button up, which means I end up hitting the banner instead 😟; this is often a really frustrating start to my daily commute.&lt;/p></description></item><item><title>Big Rocks</title><link>https://stephenjayakar.github.io/posts/big-rocks/</link><pubDate>Wed, 23 Nov 2022 13:56:54 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/big-rocks/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
+ href="https://www.linkedin.com/posts/stephenjayakar_big-rocks-leadership-activity-7000927233380925440-CD_X/?utm_source=share&amp;amp;utm_medium=member_desktop"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>on LinkedIn&lt;/a> as a meme&lt;/em>.&lt;/p>
+&lt;p>i’ve been thinking about the big rocks every day&lt;/p>
+&lt;p>for those who don’t know: &lt;a
+ href="https://lnkd.in/gZGfgBE9"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>https://lnkd.in/gZGfgBE9&lt;/a>&lt;/p>
+&lt;p>just the other day, i was at whole foods. and i tried to fit the items into my cute tote bag haphazardly. they didn’t fit!!&lt;/p>
+&lt;p>but then, i put the straus whole fat milk first. and then the yogurt. and then i put the cheese, and the cute lil snax. i fit everything! the bag was kinda heavy though.&lt;/p></description></item><item><title>Attachment Styles at Work</title><link>https://stephenjayakar.github.io/posts/attachment-styles-at-work/</link><pubDate>Sat, 17 Sep 2022 13:50:20 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/attachment-styles-at-work/</guid><description>&lt;p>&lt;em>Originally posted &lt;a
  href="https://www.linkedin.com/posts/stephenjayakar_social-thoughtleadership-attachment-activity-6976933121694846976-fBwY?utm_source=share&amp;amp;utm_medium=member_desktop"
  
  

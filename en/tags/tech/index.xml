@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on Hi, I&#39;m Stephen 👋</title>
+    <link>http://localhost:1313/en/tags/tech/</link>
+    <description>Recent content in Tech on Hi, I&#39;m Stephen 👋</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Dec 2024 00:00:06 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT isn&#39;t a decompiler... yet</title>
+      <link>http://localhost:1313/en/posts/chatgpt-not-compiler/</link>
+      <pubDate>Tue, 10 Dec 2024 00:00:06 -0800</pubDate>
+      <guid>http://localhost:1313/en/posts/chatgpt-not-compiler/</guid>
+      <description>&lt;p&gt;Previous article: &lt;a&#xA;  href=&#34;https://stephenjayakar.com/posts/what-i-have-been-up-to/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;What I&amp;rsquo;m up to&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;abstract--results&#34;&gt;Abstract / Results&lt;a href=&#34;#abstract--results&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;It feels a bit pretentious to open a blog post with an abstract. However, I wanted to communicate up front concisely &lt;em&gt;what&lt;/em&gt; I tried to do, and what the open areas of exploration are. Those who are interested can dig more.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;I wanted to make ChatGPT into a magic decompiler for PowerPC assembly to supercharge the Super Smash Bros. Melee (&amp;ldquo;Melee&amp;rdquo;) decompilation project.&lt;/strong&gt; I observed over a year ago that ChatGPT was surprisingly good at understanding PowerPC assembly language and generating C code that was logically equivalent. I also saw other papers that were attempting to use LLMs as decompilers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>What I&#39;m up to</title>
+      <link>http://localhost:1313/en/posts/what-i-have-been-up-to/</link>
+      <pubDate>Mon, 23 Sep 2024 17:05:52 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/what-i-have-been-up-to/</guid>
+      <description>&lt;p&gt;A lot of people have been asking what I&amp;rsquo;ve been up to since I left Plaid at the beginning of this month. I was at Plaid for 4 years, which were amazing and I am very thankful for the amazing people I&amp;rsquo;ve met and work I&amp;rsquo;ve been able to do.&lt;/p&gt;&#xA;&lt;p&gt;I am not funemployed, and I don&amp;rsquo;t want to evoke concepts related to that. I&amp;rsquo;m grinding harder than I did while employed. It&amp;rsquo;s such a gift to be able to have software engineering skills that have been forged in a real tech company, and then let loose on personal projects. I&amp;rsquo;m working on learning as much as I can about the AI space and debating if I should make that my next 4-year move. AI has been moving faster and faster, and there are so many toy projects I want to build:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Choosing a Blogging Platform: Aesthetic and Technical Considerations</title>
+      <link>http://localhost:1313/en/posts/blogging-platform/</link>
+      <pubDate>Sat, 14 Sep 2024 11:57:45 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/blogging-platform/</guid>
+      <description>&lt;p&gt;In my journey as a blogger, I’ve published posts across platforms like Medium, Substack, and other proprietary blogging stacks. When writing more and more technical stuff, I realized that some stacks were definitely better than others.&lt;/p&gt;&#xA;&lt;p&gt;When consuming other people&amp;rsquo;s blog posts, the first thing that stood out to me was aesthetics. You get an impression about the platform and the person simply by the details of how their text looks. Does their code have great, language-specific highlights? Do they use &lt;code&gt;monospace&lt;/code&gt; + does their platform support it? How is the image formatting? What about the base color scheme?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why pay for Notion’s AI? I built my own auto-tagging tool in a week!</title>
+      <link>http://localhost:1313/en/posts/notion-ai/</link>
+      <pubDate>Wed, 04 Sep 2024 12:55:02 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/notion-ai/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/why-pay-for-notions-ai-i-built-my-own-auto-tagging-tool-in-a-week-be2f57fb1b92&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I built the thing I talk about in this blog post — if you want to check it out, &lt;a&#xA;  href=&#34;https://github.com/stephenjayakar/notion-journal-tagger/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;it’s here&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;&lt;a&#xA;  href=&#34;https://www.notion.so/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Notion&lt;/a&gt;, like every tech company, has been shoving AI features down our throats for the last couple of months at the cost of customer UX. &lt;strong&gt;So I disabled them&lt;/strong&gt;. You can do this yourself by just messaging support — I got the idea from &lt;a&#xA;  href=&#34;https://www.reddit.com/r/Notion/comments/1d2mbyx/how_to_remove_notion_ai_from_workspace/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;this Reddit thread&lt;/a&gt;, which is one of many. Ever since I disabled it, the UX has at least returned-to-normal, and performance of editing has increased (have you ever noticed how Notion lags a bit every time you press &lt;code&gt;SPC&lt;/code&gt; so that it can show you the AI toolbar?).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How I do window management in Mac OS X</title>
+      <link>http://localhost:1313/en/posts/window-management/</link>
+      <pubDate>Fri, 22 Mar 2024 12:50:14 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/window-management/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://stephenjayakar.substack.com/p/how-i-do-window-management-in-mac&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Brief doc I&amp;rsquo;m sending to my friendos&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;For transparency, I’m going to recommend a paid window switcher I use for Mac OS X called &lt;a&#xA;  href=&#34;https://contexts.co/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Contexts&lt;/a&gt;. It’s saved me so much time and has made using my computer a breeze; so much so, that I’ve bound it to &lt;code&gt;CMD+Tab&lt;/code&gt;. I’ll attempt to justify this in the doc.&lt;/p&gt;&#xA;&lt;p&gt;The default window management paradigm in Mac OS X, for me, left much to be desired. I grew up using Windows, which has a pretty different pattern for how you &lt;code&gt;Alt+Tab&lt;/code&gt; between windows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I made a web app to get better at adding half-steps to notes</title>
+      <link>http://localhost:1313/en/posts/half-steps/</link>
+      <pubDate>Wed, 27 Dec 2023 12:39:25 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/half-steps/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://stephenjayakar.substack.com/p/i-made-a-web-app-to-get-better-at?r=1pf9f2&amp;amp;utm_medium=ios&amp;amp;utm_campaign=post&amp;amp;triedRedirect=true&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Try it out &lt;a&#xA;  href=&#34;https://music-math.vercel.app/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;here&lt;/a&gt; if you like pressing buttons as much as I do! &lt;a&#xA;  href=&#34;https://github.com/stephenjayakar/music-math&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;GitHub&lt;/a&gt; if you like reading code.&lt;/p&gt;&#xA;&lt;p&gt;During the holidays, I wanted to get better at answering questions like “what is 7 half steps up from A?&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;” I often found myself in the situation of having these problems as a lot of guitar chord sheets are written something like “A capo 7” which means you put the big barre thing on your guitar and play an A-shape chord. When using a capo, the actual underlying chord is &amp;lsquo;A + 7 half steps&amp;rsquo;. This means if you&amp;rsquo;re collaborating with another instrument or with someone not using a capo, you need to communicate the actual chord you&amp;rsquo;re playing. This requires some mental math, which I found slightly embarrassing as I didn&amp;rsquo;t always immediately know what chord I was playing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Notes on Google&#39;s TrueTime</title>
+      <link>http://localhost:1313/en/posts/spanner/</link>
+      <pubDate>Sun, 04 Jun 2023 14:41:15 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/spanner/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://stephenjayakar.substack.com/p/my-notes-on-googles-truetime?utm_campaign=post&amp;amp;utm_medium=web&amp;amp;triedRedirect=true&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Substack&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;edit: this blogpost was initially wrong when I published it. Thanks to some comments I got, I learned I didn’t fully understand TrueTime or Spanner — I’ve spent some time learning and understanding the core concept again, and have updated this artifact. This is an externalized resource for me that I hope can be helpful for others.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;When I was reading the &lt;a&#xA;  href=&#34;https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;famous paper on Spanner&lt;/a&gt;, Google’s globally distributed linearizable database, I really struggled with the concept of TrueTime, which is a core component of &lt;em&gt;why&lt;/em&gt; they were able to get their guarantees. After trying to wrap my head around it, I created the following artifact (IMO, TrueTime deserves a mini-ish paper or post on its own):&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notifications Suck</title>
+      <link>http://localhost:1313/en/posts/notifs-suck/</link>
+      <pubDate>Fri, 02 Jun 2023 14:38:05 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/notifs-suck/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/notifications-suck-6b33495f9e8a&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;they really do. I have most of them turned off on my phone.&lt;/p&gt;&#xA;&lt;p&gt;first, idk who to blame about these, but there is this class of notifications that are like&lt;/p&gt;&#xA;&lt;p&gt;“feeling hungry? order UberEats now!!”&lt;/p&gt;&#xA;&lt;p&gt;someone gave someone this lever to pull to increase engagement. the first someone upsets me, and i sometimes think about the other someone and also get angry.&lt;/p&gt;&#xA;&lt;p&gt;i turn all of these off, when I can actually turn them off. in the case where an app doesn’t let me disable them, I turn off all notifications for that app. &lt;strong&gt;they’ve lost my trust&lt;/strong&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Some quick git (and zsh) workflow optimizations</title>
+      <link>http://localhost:1313/en/posts/some-quick-zsh/</link>
+      <pubDate>Sun, 25 Dec 2022 14:32:18 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/some-quick-zsh/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/some-quick-git-and-zsh-workflow-optimizations-a979c74b814f&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I use &lt;code&gt;git&lt;/code&gt; a ton in work and my personal life, and have come up with a couple of aliases that have made using it so much more pleasant and fast. &lt;strong&gt;First, I’ve renamed &lt;code&gt;git&lt;/code&gt; to &lt;code&gt;g&lt;/code&gt;&lt;/strong&gt;. &lt;em&gt;You have no idea how much typing that’s saved me (I also don’t know).&lt;/em&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;alias g&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;git&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;aliases&#34;&gt;Aliases&lt;a href=&#34;#aliases&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;&lt;code&gt;git&lt;/code&gt; allows you to alias commands. In the spirit of renaming commands to one character, here are my favorite aliases:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I’m against AIs writing blog posts</title>
+      <link>http://localhost:1313/en/posts/im-against-ai-blog/</link>
+      <pubDate>Sat, 03 Dec 2022 14:28:29 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/im-against-ai-blog/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/im-against-ais-writing-blog-posts-17900f903c5c&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Why do we need AI to write blog posts? There’s been a trend of these AI tools to write things for you:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a&#xA;  href=&#34;https://www.notion.so/product/ai&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;https://www.notion.so/product/ai&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a&#xA;  href=&#34;https://www.copy.ai/bloggers&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;https://www.copy.ai/bloggers&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a&#xA;  href=&#34;https://www.jasper.ai/examples/blog-posts&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;https://www.jasper.ai/examples/blog-posts&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Imagine you have something to say to people. So you come up with some representation of that thing you want to say; maybe bullet points, maybe a rant, maybe even some markdown stuck in a GitHub repository. Why can’t you just publish that?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Frontend developers: stop moving things that I’m about to click on</title>
+      <link>http://localhost:1313/en/posts/frontend-devs-stop-moving/</link>
+      <pubDate>Fri, 25 Nov 2022 13:58:48 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/frontend-devs-stop-moving/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/frontend-developers-stop-moving-things-that-im-about-to-click-on-5827bc0409b3&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Please. It’s an insult to my brain. Like, you put the button in one place, and then you’re like “nah, let’s move it somewhere else.” Here are some examples that have annoyed me the most lately:&lt;/p&gt;&#xA;&lt;h3 id=&#34;lyft-bike-scan-button&#34;&gt;Lyft Bike Scan Button&lt;a href=&#34;#lyft-bike-scan-button&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;This one sucks as I’m often opening the Lyft app just to ride bikes. So I immediately hit the bike button and I’m trying to hit the “Scan” button as quickly as possible. But no! Depending on how fast my internet is at the current moment, that banner will appear and push the Scan button up, which means I end up hitting the banner instead 😟; this is often a really frustrating start to my daily commute.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Attachment Styles at Work</title>
+      <link>http://localhost:1313/en/posts/attachment-styles-at-work/</link>
+      <pubDate>Sat, 17 Sep 2022 13:50:20 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/attachment-styles-at-work/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://www.linkedin.com/posts/stephenjayakar_social-thoughtleadership-attachment-activity-6976933121694846976-fBwY?utm_source=share&amp;amp;utm_medium=member_desktop&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on LinkedIn&lt;/a&gt; as a meme&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;my friends are all attachment styles this and attachment styles that when it comes to dating. however, has anyone had the brilliant idea of applying attachment styles to working at a tech company? I didn’t think so! now you might be thinking, “hey Stephen isn’t this a bad idea?” and yes, it is. but just like we should all hope to be secure partners in our relationships, we should also &lt;em&gt;possibly&lt;/em&gt; strive to be secure capitalistic partners at work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adopting the OpenAPI schema to generate Plaid&#39;s SDKs</title>
+      <link>http://localhost:1313/en/posts/plaid-adopting-openapi/</link>
+      <pubDate>Wed, 15 Sep 2021 13:03:41 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/plaid-adopting-openapi/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted on the &lt;a&#xA;  href=&#34;https://plaid.com/blog/adopting-the-openapi-schema-to-generate-plaids-sdks/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Plaid Engineering Blog&lt;/a&gt; while I was part of Plaid&amp;rsquo;s Developer Experience Team&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;The developer experience team focuses on building tools and features that make it as easy as possible for developers to explore our APIs and integrate with Plaid. This year, our team adopted an OpenAPI schema (OAS) as a specification for our API. We launched this schema in beta earlier this year.&lt;/p&gt;&#xA;&lt;p&gt;Our team is responsible for maintaining three sources of truth for our API that allow developers to build and test their integrations:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing ES6 Everywhere</title>
+      <link>http://localhost:1313/en/posts/writing-es6-everywhere/</link>
+      <pubDate>Sat, 28 Sep 2019 12:55:44 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/writing-es6-everywhere/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted on the &lt;a&#xA;  href=&#34;https://mdb.dev/misc-content/writing-es6-everywhere/&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;Mobile Developers of Berkeley blog&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;This article is going to be a quick intro to the basics of writing modern JavaScript all the time, rather than being dependent on what environment is supported by a given browser.&lt;/p&gt;&#xA;&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;a href=&#34;#intro&#34; class=&#34;post-heading__anchor&#34; aria-hidden=&#34;true&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;First, what is ES6?  &lt;strong&gt;E&lt;/strong&gt;CMA&lt;strong&gt;S&lt;/strong&gt;cript 6 is the sixth standardized version of JavaScript, which is ultimately a specification of language features.  ES6 added a ton of really great features that drastically improved the ability to construct larger-scale programs with JavaScript (like constants and block scoping!).  It’s important to note, as ES6 is only a specification, it’s ultimately up to the browsers to provide an implementation for these new features: often, certain browsers lag behind on implementing all these features (i.e. IE).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Quick Dive Into Python&#39;s Slots</title>
+      <link>http://localhost:1313/en/posts/a-quick-dive-into-pythons-slots/</link>
+      <pubDate>Fri, 09 Nov 2018 18:00:10 -0700</pubDate>
+      <guid>http://localhost:1313/en/posts/a-quick-dive-into-pythons-slots/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Originally posted &lt;a&#xA;  href=&#34;https://medium.com/@stephenjayakar/a-quick-dive-into-pythons-slots-72cdc2d334e&#34;&#xA;  &#xA;  &#xA;    class=&#34;link--external&#34; target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&#xA;  &#xA;&gt;on Medium&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;For my first Medium article, we’re going to go into a quick and easy way to speed up your Python code (and pass those pesky HackerRank tests where you’re just a bit short on time!), as well as some of the technical implementation details for the curious.&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;__slots__&lt;/code&gt; is an attribute you can add to a Python class when defining it. You define slots with the possible attributes that an instance of an object can possess. Here’s how you use &lt;code&gt;__slots__&lt;/code&gt;:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
