@@ -1,7 +1,7 @@
 +++
 title = 'AI is now a magic decompiler'
 date = 2026-02-10T15:25:33-08:00
-draft = true
+tags = ['tech']
 
 [cover]
 src = "/images/magic-decomp.png"
