@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/posts/</link><description>Recent content in Posts on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 13 Oct 2025 09:18:17 -0700</lastBuildDate><atom:link href="https://stephenjayakar.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Re: Introducing...the Scrub</title><link>https://stephenjayakar.github.io/posts/re-scrubs/</link><pubDate>Mon, 13 Oct 2025 09:18:17 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/re-scrubs/</guid><description>&lt;p>&lt;a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/posts/</link><description>Recent content in Posts on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 10 Feb 2026 15:25:33 -0800</lastBuildDate><atom:link href="https://stephenjayakar.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>AI is now a magic decompiler</title><link>https://stephenjayakar.github.io/posts/magic-decomp/</link><pubDate>Tue, 10 Feb 2026 15:25:33 -0800</pubDate><guid>https://stephenjayakar.github.io/posts/magic-decomp/</guid><description>&lt;p>AI Agents are now magic decompilers. &lt;a
+ href="https://stephenjayakar.com/posts/chatgpt-not-compiler/"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>Previously&lt;/a>, I ran an agent-in-the-loop to try to decompile Super Smash Bros. Melee in Dec 2024 with &lt;code>gpt-4o&lt;/code>, but found that the model didn&amp;rsquo;t tend to learn from its mistakes. Since then:&lt;/p>
+&lt;ul>
+&lt;li>Models have gotten smarter&lt;/li>
+&lt;li>Tools have gotten better&lt;/li>
+&lt;li>Other people have started to create skills &amp;amp; tools to help AI&lt;/li>
+&lt;/ul>
+&lt;p>It&amp;rsquo;s not just a couple of functions here or there. I&amp;rsquo;ve merged around 20 functions, and have 80 more in review. Previously, &lt;em>it would take me 1 day a function&lt;/em>. My results aren&amp;rsquo;t even the most impressive though. The writer of the &lt;a
+ href="https://www.notion.so/github.com/doldecomp/melee/pull/2076"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>decomp skills&lt;/a> set a record for &lt;a
+ href="https://github.com/doldecomp/melee/pull/2102"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>the most matches in a PR&lt;/a>. Tons of people are using their own custom agents or just Claude Code in the &lt;a
+ href="https://discord.gg/hKx3FJJgrV"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>Discord&lt;/a> (channel is #smash-bros-melee) every day with great results. If this is something you&amp;rsquo;re interested in, come pop on by! We could always use more tokens 🤠.&lt;/p></description></item><item><title>Re: Introducing...the Scrub</title><link>https://stephenjayakar.github.io/posts/re-scrubs/</link><pubDate>Mon, 13 Oct 2025 09:18:17 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/re-scrubs/</guid><description>&lt;p>&lt;a
  href="https://www.sirlin.net/ptw-book/introducingthe-scrub"
  
  
