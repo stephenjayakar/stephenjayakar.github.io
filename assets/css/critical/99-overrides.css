@@ -1,3 +1,13 @@
 a.link--external::after {
   content: none;
 }
+
+:root[data-theme="light"] *::selection {
+  color: var(--fg0);
+  background: #e8a259;
+}
+
+:root[data-theme="dark"] *::selection {
+  color: var(--fg0);
+  background: #bf5700;
+}
