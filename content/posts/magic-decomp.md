@@ -14,7 +14,7 @@ AI Agents are now magic decompilers. [Previously](https://stephenjayakar.com/pos
 - Tools have gotten better
 - Other people have started to create skills & tools to help AI
 
-It's not just a couple of functions here or there. I've merged around 20 functions, and have 80 more in review. Previously, *it would take me 1 day a function*. My results aren't even the most impressive though. The writer of the [decomp skills](https://www.notion.so/github.com/doldecomp/melee/pull/2076) set a record for [the most matches in a PR](https://github.com/doldecomp/melee/pull/2102). Tons of people are using their own custom agents or just Claude Code in the [Discord](https://discord.gg/hKx3FJJgrV) (channel is #smash-bros-melee) every day with great results. If this is something you're interested in, come pop on by! We could always use more tokens 🤠.
+It's not just a couple of functions here or there. I've merged around 20 functions, and have 80 more in review. Previously, *it would take me 1 day a function*. My results aren't even the most impressive though. The writer of the [decomp skills](https://github.com/doldecomp/melee/pull/2076) set a record for [the most matches in a PR](https://github.com/doldecomp/melee/pull/2102). Tons of people are using their own custom agents or just Claude Code in the [Discord](https://discord.gg/hKx3FJJgrV) (channel is #smash-bros-melee) every day with great results. If this is something you're interested in, come pop on by! We could always use more tokens 🤠.
 
 # Why autonomous agents are good at decompilation
 
