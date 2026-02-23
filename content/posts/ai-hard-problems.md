@@ -1,6 +1,7 @@
 +++
 title = 'How to solve hard problems with AI'
 date = 2026-02-22T19:40:11-08:00
+tags = ['tech']
 +++
 
 This is probably something I'll be updating over time but has helped me a ton when kicking off long-running agents.
