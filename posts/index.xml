@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/posts/</link><description>Recent content in Posts on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 10 Feb 2026 15:25:33 -0800</lastBuildDate><atom:link href="https://stephenjayakar.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>AI is now a magic decompiler</title><link>https://stephenjayakar.github.io/posts/magic-decomp/</link><pubDate>Tue, 10 Feb 2026 15:25:33 -0800</pubDate><guid>https://stephenjayakar.github.io/posts/magic-decomp/</guid><description>&lt;p>AI Agents are now magic decompilers. &lt;a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/posts/</link><description>Recent content in Posts on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 22 Feb 2026 19:40:11 -0800</lastBuildDate><atom:link href="https://stephenjayakar.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>How to solve hard problems with AI</title><link>https://stephenjayakar.github.io/posts/ai-hard-problems/</link><pubDate>Sun, 22 Feb 2026 19:40:11 -0800</pubDate><guid>https://stephenjayakar.github.io/posts/ai-hard-problems/</guid><description>&lt;p>This is probably something I&amp;rsquo;ll be updating over time but has helped me a ton when kicking off long-running agents.&lt;/p>
+&lt;ol>
+&lt;li>Find a hard problem. Something like creating a browser (link cursor), adding raytracing to an old game, adding VR to an old game, decompiling an old game (are you starting to see a trend?)&lt;/li>
+&lt;li>Get an agent structure that allows you to run an agent on an always-on machine. It should be the same platform as the machine that will run the &amp;ldquo;problem&amp;rdquo; - if it&amp;rsquo;s a game, probably Windows. I&amp;rsquo;m using Opencode + Kimaki to check in on Discord&lt;/li>
+&lt;li>Ralph loops. I created a skill &lt;a
+ href="https://github.com/stephenjayakar/opencode-ralph-loop/tree/main"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>here&lt;/a>. For the initial codebase, have it create a comprehensive PLAN.md, and then setup a Ralph Loop until the PLAN.md is complete. You can have it keep kicking off agents until there are no &lt;code>- [ ]&lt;/code> left in the document.&lt;/li>
+&lt;li>(But not necessarily last): make it so that the agent can somehow verify its output. A screenshot harness, the ability to directly set state to a certain position, are super super important as as your topic gets more niche, AI is less likely to output code that works on the first try.&lt;/li>
+&lt;/ol></description></item><item><title>AI is now a magic decompiler</title><link>https://stephenjayakar.github.io/posts/magic-decomp/</link><pubDate>Tue, 10 Feb 2026 15:25:33 -0800</pubDate><guid>https://stephenjayakar.github.io/posts/magic-decomp/</guid><description>&lt;p>AI Agents are now magic decompilers. &lt;a
  href="https://stephenjayakar.com/posts/chatgpt-not-compiler/"
  
  
