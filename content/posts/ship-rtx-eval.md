@@ -1,5 +1,5 @@
 +++
-title = 'AI Image Eval: RTX Ship of Harkinian Grading'
+title = 'Can AI Agents build a graphics pipeline autonomously?'
 date = 2026-03-01T13:51:44-08:00
 tags = ['tech', 'gaming']
 
