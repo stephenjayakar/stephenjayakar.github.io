@@ -45,7 +45,7 @@ I didn't send this to the LLM, and instead was looking for it to analyze the ima
 
 When evaluating model performance, I just copied in the image (full-size), and copied in the prompt and went ham. Here are my results, ordered by score:
 
-#### Gemini 3.1 Pro 9/10
+### Gemini 3.1 Pro 9/10
 Good
 * Noticed the shadowing, and the fact that the light has been changed from static to dynamic
     * Differentiated that there's direct illumination
@@ -60,7 +60,7 @@ Bad
 * Made up something about the skybox. Got confused with the trees in the back
 * Made up something about UV mapping / stretched textures
 
-#### OpenAI o3 8/10
+### OpenAI o3 8/10
 Unlike the other models, in the thinking trace, `o3` actually zooms into parts of the picture.
 
 Good
@@ -75,7 +75,7 @@ Bad
 * Incorrectly thinks I'm using a denoiser
 * Mistakes the trees for a skybox
 
-#### Opus 4.6 6/10
+### Opus 4.6 6/10
 Good
 * Noticed texture filtering problem
 * Lack of anisotropic filtering
@@ -84,7 +84,7 @@ Bad
 * Misidentified where it is (Kakariko or Castle Town)
 * Made up something about the skybox
 
-#### Gemini 3.1 Flash 6/10
+### Gemini 3.1 Flash 6/10
 Good
 * Noticed the shadows and their accuracy
 * Called out GI, and said that it gives things a yellowish tint
@@ -98,7 +98,7 @@ Bad
 * Calls out that exposures are blown out. I don't think so. I think it's just the error with the white texture over the fence. It does notice there's something wrong here
 * The fence isn't filtered, though it says it is as well as the ground
 
-#### Kimi K2.5 6/10
+### Kimi K2.5 6/10
 Good
 * Identifies GI, yellow color
 * Notices soft shadows
@@ -110,7 +110,7 @@ Bad
 * Misidentifies as Temple of Time. Weird!! Qwen did that too
 * Incorrectly thinks there are other light sources besides the sun
 
-#### OpenAI GPT 5.2 Thinking 5/10
+### OpenAI GPT 5.2 Thinking 5/10
 Good
 * Ok it does seem to notice the indirect lighting bounce
 * Thinks it's too yellow or white, and calls out the albedo problem
@@ -122,7 +122,7 @@ Bad
 * Doesn't attempt to locate the place
 * Notices the texture problem, but doesn't correctly ID the problem
 
-#### Sonnet 4.6 4/10
+### Sonnet 4.6 4/10
 Good
 * Thinks there's GI
 * Noticed the "minecraft like" textures
@@ -134,7 +134,7 @@ Bad
 * "self shadowing problem" doesn't exist
 * Keeps saying that it's overexposed and yellow
 
-#### Qwen3.5-35B-A3B 2/10
+### Qwen3.5-35B-A3B 2/10
 Good
 * Noticed that I'm rendering at a higher resolution than the original game
 * Noticed no reflections. I'm not really sure why it said this
@@ -148,7 +148,7 @@ Bad
 * Misidentified the skybox
 * Calls out the fence is "flat" which is wrong because the original game was like this
 
-#### MiniMax M2.5 - doesn't support image input
+### MiniMax M2.5 - doesn't support image input
 
 # Conclusion
 The reason why this is important is if AI can't do this, it can't run autonomously in a loop for a hard task like "create a ray tracer for this game." I have faith in its ability to "implement material properties" - but based on this eval, I don't have faith in its ability to "improve the output."
