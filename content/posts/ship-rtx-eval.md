@@ -43,7 +43,7 @@ I didn't send this to the LLM, and instead was looking for it to analyze the ima
 
 # Evals
 
-When evaluating model performance, I just copied in the image (full-size), and copied in the prompt and went ham. Here are my results, ordered by score:
+When evaluating model performance, I just copied in the image (full-size), and copied in the prompt and went ham. I posted the actual LLM outputs on [my GitHub](https://gist.github.com/stephenjayakar/91119eefaf988c2a57de661e1180cb06). Here are my results, ordered by score:
 
 ### Gemini 3.1 Pro 9/10
 Good
