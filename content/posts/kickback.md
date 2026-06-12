@@ -1,8 +1,14 @@
 +++
-title = 'Kickback.AI'
+title = 'Kickbacks.AI'
 date = 2026-06-11T17:31:15-07:00
 tags = ['tech']
 +++
+
+![chat usage](/images/chat-usage.png)
+![ant usage](/images/ant-usage.png)
+![kickbacks](/images/kickbacks.png)
+
+_The receipts to show I'm not capping_
 
 First, before you jump in on this, know that they haven't setup their Stripe integration yet. So even if you make a ton of $, this might be a scam LOL. So it's not entirely worth it.
 
