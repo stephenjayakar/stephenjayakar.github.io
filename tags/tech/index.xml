@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/tags/tech/</link><description>Recent content in Tech on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 11 Jun 2026 17:31:15 -0700</lastBuildDate><atom:link href="https://stephenjayakar.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Kickbacks.AI</title><link>https://stephenjayakar.github.io/posts/kickback/</link><pubDate>Thu, 11 Jun 2026 17:31:15 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/kickback/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.github.io/tags/tech/</link><description>Recent content in Tech on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 12 Jul 2026 12:00:00 -0500</lastBuildDate><atom:link href="https://stephenjayakar.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml"/><item><title>How is GPT 5.6?</title><link>https://stephenjayakar.github.io/posts/how-is-gpt-5-6/</link><pubDate>Sun, 12 Jul 2026 12:00:00 -0500</pubDate><guid>https://stephenjayakar.github.io/posts/how-is-gpt-5-6/</guid><description>&lt;p>It&amp;rsquo;s great. However, like all evals, the verdict depends on the tasks - so I&amp;rsquo;ll describe the tasks too.&lt;/p>
+&lt;h1 id="before-gpt-56-fable-orchestrating-gpt-55">Before GPT 5.6: Fable orchestrating GPT 5.5&lt;a href="#before-gpt-56-fable-orchestrating-gpt-55" class="post-heading__anchor" aria-hidden="true">#&lt;/a>
+&lt;/h1>
+&lt;p>Right before GPT 5.6 came out, Fable was available on Claude subscription plans. I already had a $100/month Codex subscription. For Claude, as I only had a $20/month subscription, I could only use Fable in the following way:&lt;/p>
+&lt;ul>
+&lt;li>Fable set to low&lt;/li>
+&lt;li>Fable using &lt;a
+ href="https://github.com/stephenjayakar/claude-codex-delegate"
+ 
+ 
+ class="link--external" target="_blank" rel="noreferrer"
+ 
+>this skill&lt;/a> to actually use GPT 5.5 as a researcher &amp;amp; coder&lt;/li>
+&lt;/ul>
+&lt;p>I found this paradigm on Twitter. To figure out if this was better than just using GPT 5.5, I ran two evals:&lt;/p></description></item><item><title>Kickbacks.AI</title><link>https://stephenjayakar.github.io/posts/kickback/</link><pubDate>Thu, 11 Jun 2026 17:31:15 -0700</pubDate><guid>https://stephenjayakar.github.io/posts/kickback/</guid><description>&lt;p>
 
 
 
