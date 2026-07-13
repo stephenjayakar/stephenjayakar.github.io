@@ -1,5 +1,118 @@
+:root {
+  /*
+   * Use the platform's text face for prose. It is faster to load and much
+   * calmer over long articles than the old Roboto Slab/Fira Code pairing.
+   * Fira Code remains available for code and the site's terminal-like UI.
+   */
+  --font-reading: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-sans-serif: var(--font-reading);
+  --font-serif: var(--font-reading);
+}
+
 html {
-  font-size: 1.125rem;
+  font-family: var(--font-reading);
+  font-size: 1.0625rem;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: var(--font-reading);
+  font-kerning: normal;
+  line-height: 1.7;
+}
+
+main {
+  grid-template-columns: 1fr minmax(0, 68ch) 4fr;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-reading);
+  font-weight: 650;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: clamp(1.65rem, 4vw, 2.1rem);
+}
+
+h2 {
+  font-size: clamp(1.4rem, 3.25vw, 1.75rem);
+}
+
+h3 {
+  font-size: clamp(1.2rem, 2.75vw, 1.4rem);
+}
+
+/* Page and article titles sit above the compact in-article hierarchy. */
+.post-header > h1,
+.content-section > h1 {
+  font-size: clamp(2.5rem, 6vw, 3.5rem);
+  line-height: 1.08;
+}
+
+/* Post titles are h2 elements in the index/list templates. */
+.post-header > h2 {
+  border-bottom: 0;
+  font-size: clamp(2.25rem, 5vw, 3rem);
+  line-height: 1.1;
+}
+
+strong {
+  letter-spacing: inherit;
+}
+
+.post-content {
+  margin-block: 1.5rem;
+}
+
+.post-content > :where(p, ul, ol, blockquote, h2, h3, h4) {
+  max-width: 40rem;
+}
+
+.post-content p,
+.post-content ul,
+.post-content ol {
+  margin-block: 1.1em;
+}
+
+.post-content li + li {
+  margin-top: 0.45em;
+}
+
+.post-content a {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentcolor 45%, transparent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.post-content a:hover {
+  text-decoration-color: currentcolor;
+}
+
+figcaption,
+.jr-basics__summary,
+#search__suggestions {
+  font-family: var(--font-reading);
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 1rem;
+  }
+
+  body {
+    line-height: 1.65;
+  }
+
+  .content-section,
+  .post {
+    padding-block: 1.5rem;
+  }
 }
 
 a.link--external::after {
