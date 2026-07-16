@@ -1,6 +1,8 @@
-baseURL = "https://stephenjayakar.github.io"
+baseURL = "https://stephenjayakar.com/"
 languageCode = 'en-us'
 title = "Hi, I'm Stephen 👋"
+disableLanguages = ['de']
+enableRobotsTXT = true
 
 [taxonomies]
   tag = 'tags'
