@@ -1,7 +1,7 @@
 +++
 title = 'Kickbacks.AI'
 date = 2026-06-11T17:31:15-07:00
-tags = ['tech']
+tags = ['tech', 'ai']
 +++
 
 ![chat usage](/images/chat-usage.png)

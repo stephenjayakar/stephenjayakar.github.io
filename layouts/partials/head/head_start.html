@@ -1,4 +1,8 @@
 
+{{ if .Param "math" }}
+  {{ partialCached "math.html" . }}
+{{ end }}
+
 <meta name="msvalidate.01" content="2B965BCF93F472D4B042167D9E2D09AD">
 
 <!-- Google tag (gtag.js) -->

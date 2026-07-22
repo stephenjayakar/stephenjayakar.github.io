@@ -2,12 +2,7 @@
 <html
   lang="{{ .Site.Language.Lang | default "en" }}"
   data-theme="{{ .Param "defaultTheme" | default "light" }}"
-  >
-<head>
-  {{ if .Param "math" }}
-    {{ partialCached "math.html" . }}
-  {{ end }}
-</head>
+>
   {{ partial "head/head.html" . }}
   <body>
     <div class="layout">

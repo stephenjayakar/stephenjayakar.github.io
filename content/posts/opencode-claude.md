@@ -1,7 +1,7 @@
 +++
 title = '`opencode` or Claude Code?'
 date = 2025-08-29T15:32:29-07:00
-tags = ['tech']
+tags = ['tech', 'ai']
 +++
 
 _Just so that people don't get confused, [this opencode](https://opencode.ai/). I'm not a shill I promise._

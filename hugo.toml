@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = "Hi, I'm Stephen 👋"
 disableLanguages = ['de']
 enableRobotsTXT = true
+enableGitInfo = true
 
 [taxonomies]
   tag = 'tags'
@@ -75,6 +76,11 @@ enableRobotsTXT = true
   [[module.mounts]]
     source = "static"
     target = "static"
+  # Make static post images available to Hugo's image pipeline while keeping
+  # their original URLs available for social cards and external links.
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
   [[module.mounts]]
     source = "node_modules/typeface-fira-code/files"
     target = "static/fonts"
@@ -112,10 +118,15 @@ enableRobotsTXT = true
   themeContrast = "hard"
   author = "Stephen Jayakar"
   subtitle = ""
-  description = ""
+  description = "Software engineering, AI agents, game decompilation, distributed systems, and other things Stephen Jayakar finds interesting."
 
   [params.meta]
     favicon = true
+
+  [params.imageResize]
+    min = 400
+    max = 1400
+    increment = 500
 
   [params.logo]
     text = "stephenjayakar.com"

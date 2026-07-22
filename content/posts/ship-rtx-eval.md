@@ -1,11 +1,15 @@
 +++
 title = 'Can AI Agents build a graphics pipeline autonomously?'
 date = 2026-03-01T13:51:44-08:00
-tags = ['tech', 'gaming']
+tags = ['tech', 'gaming', 'ai']
 
 [cover]
 src = "/images/rtx-eval-1.png"
 +++
+
+_Update as of Jul 19, 2026: As of now, GPT 5.6 Sol can do this. Will post some results soon!_
+
+---
 
 I started working on adding raytracing (RTX) to _The Legend of Zelda: Ocarina of Time_. As in my other posts, I'm generally trying to drive the project via autonomous LLM agents.
 

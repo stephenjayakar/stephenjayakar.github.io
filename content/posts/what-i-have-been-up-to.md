@@ -1,7 +1,7 @@
 +++
 title = "What I'm up to"
 date = 2024-09-23T17:05:52-07:00
-tags = ["tech"]
+tags = ["tech", "ai"]
 +++
 
 A lot of people have been asking what I've been up to since I left Plaid at the beginning of this month. I was at Plaid for 4 years, which were amazing and I am very thankful for the amazing people I've met and work I've been able to do.

@@ -1,7 +1,7 @@
 +++
 title = "ChatGPT isn't a decompiler... yet"
 date = 2024-12-10T00:00:06-08:00
-tags = ['tech']
+tags = ['tech', 'ai']
 
 [cover]
 src = "/images/decomp-cover.png"
@@ -353,4 +353,3 @@ I really enjoyed this project as my first serious AI project. If I didn't try it
 **AI isn't a magic decompiler**. But that doesn't need to be the end of the story. On my [GitHub for this project](https://github.com/stephenjayakar/magic-decomp), I've detailed some alternate explorations that could be really fruitful, but I just ran out of time (or money). The problem statement is still compelling enough to me that I might work on it in the future.
 
 Thanks for reading! Now I'll probably go look for a job :)
-
