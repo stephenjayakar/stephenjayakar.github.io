@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ai on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.com/tags/ai/</link><description>Recent content in Ai on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 12 Jul 2026 12:00:00 -0500</lastBuildDate><atom:link href="https://stephenjayakar.com/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>How is GPT 5.6?</title><link>https://stephenjayakar.com/posts/how-is-gpt-5-6/</link><pubDate>Sun, 12 Jul 2026 12:00:00 -0500</pubDate><guid>https://stephenjayakar.com/posts/how-is-gpt-5-6/</guid><description>&lt;p>It&amp;rsquo;s great. However, like all evals, the verdict depends on the tasks - so I&amp;rsquo;ll describe the tasks too.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ai on Hi, I'm Stephen 👋</title><link>https://stephenjayakar.com/tags/ai/</link><description>Recent content in Ai on Hi, I'm Stephen 👋</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 21 Jul 2026 18:57:20 -0700</lastBuildDate><atom:link href="https://stephenjayakar.com/tags/ai/index.xml" rel="self" type="application/rss+xml"/><item><title>How is GPT 5.6?</title><link>https://stephenjayakar.com/posts/how-is-gpt-5-6/</link><pubDate>Sun, 12 Jul 2026 12:00:00 -0500</pubDate><guid>https://stephenjayakar.com/posts/how-is-gpt-5-6/</guid><description>&lt;p>It&amp;rsquo;s great. However, like all evals, the verdict depends on the tasks - so I&amp;rsquo;ll describe the tasks too.&lt;/p>
 &lt;h1 id="before-gpt-56-fable-orchestrating-gpt-55">Before GPT 5.6: Fable orchestrating GPT 5.5&lt;a href="#before-gpt-56-fable-orchestrating-gpt-55" class="post-heading__anchor" aria-hidden="true">#&lt;/a>
 &lt;/h1>
 &lt;p>Right before GPT 5.6 came out, Fable was available on Claude subscription plans. I already had a $100/month Codex subscription. For Claude, as I only had a $20/month subscription, I could only use Fable in the following way:&lt;/p>
@@ -18,15 +18,66 @@
 
  
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture>
+ 
+ &lt;source type="image/webp" srcset="https://stephenjayakar.com/images/chat-usage_hu8154190149892435738.webp 400w,/images/chat-usage_hu15104108272185970131.webp 900w,/images/chat-usage_hu15453342282682595408.webp 1400w" sizes="(max-width: 700px) 100vw,700px" />
+ 
  &lt;img
- src="https://stephenjayakar.com/images/chat-usage.png"
+ src="https://stephenjayakar.com/images/chat-usage_hu10576493586279215882.png"
+ srcset="https://stephenjayakar.com/images/chat-usage_hu14267148687869056315.png 400w,/images/chat-usage_hu9623144142241481706.png 900w,/images/chat-usage_hu10576493586279215882.png 1400w"
+ sizes="(max-width: 700px) 100vw,700px"
  alt="chat usage"
  
  loading="lazy"
+ decoding="async"
  width="3050"
  height="498"
  />
-
+ &lt;/picture>
+ 
 
 
 
@@ -38,16 +89,71 @@
 
 
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture>
+ 
+ &lt;source type="image/webp" srcset="https://stephenjayakar.com/images/ant-usage_hu12313961804399004105.webp 400w,/images/ant-usage_hu18018308712429635509.webp 900w,/images/ant-usage_hu14937465656615812950.webp 1324w" sizes="(max-width: 700px) 100vw,700px" />
  
  &lt;img
- src="https://stephenjayakar.com/images/ant-usage.png"
+ src="https://stephenjayakar.com/images/ant-usage_hu15772241599931890396.png"
+ srcset="https://stephenjayakar.com/images/ant-usage_hu167632322426552314.png 400w,/images/ant-usage_hu4965416600320523263.png 900w,/images/ant-usage_hu15772241599931890396.png 1324w"
+ sizes="(max-width: 700px) 100vw,700px"
  alt="ant usage"
  
  loading="lazy"
+ decoding="async"
  width="1324"
  height="446"
  />
-
+ &lt;/picture>
+ 
 
 
 
@@ -59,16 +165,71 @@
 
 
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;picture>
+ 
+ &lt;source type="image/webp" srcset="https://stephenjayakar.com/images/kickbacks_hu11008283350821607607.webp 400w,/images/kickbacks_hu11770271975786220137.webp 900w,/images/kickbacks_hu10220021568560954994.webp 1246w" sizes="(max-width: 700px) 100vw,700px" />
  
  &lt;img
- src="https://stephenjayakar.com/images/kickbacks.png"
+ src="https://stephenjayakar.com/images/kickbacks_hu5969536412931681371.png"
+ srcset="https://stephenjayakar.com/images/kickbacks_hu11598922007090204610.png 400w,/images/kickbacks_hu8527998676805750583.png 900w,/images/kickbacks_hu5969536412931681371.png 1246w"
+ sizes="(max-width: 700px) 100vw,700px"
  alt="kickbacks"
  
  loading="lazy"
+ decoding="async"
  width="1246"
  height="476"
  />
-
+ &lt;/picture>
+ 
 
 
 
@@ -76,8 +237,9 @@
 
 &lt;/p>
 &lt;p>&lt;em>The receipts to show I&amp;rsquo;m not capping&lt;/em>&lt;/p>
-&lt;p>First, before you jump in on this, know that they haven&amp;rsquo;t setup their Stripe integration yet. So even if you make a ton of $, this might be a scam LOL. So it&amp;rsquo;s not entirely worth it.&lt;/p>
-&lt;p>I ran a ton of experiments trying to go cash-positive on token usage vs. ad revenue. The idea is that they ads on Claude Code / Codex&amp;rsquo;s thinking spinner, and you get 50% revenue share. A surprising amount of companies signed up for this which is funny. A lot of them are trying to hire me.&lt;/p></description></item><item><title>Can AI Agents build a graphics pipeline autonomously?</title><link>https://stephenjayakar.com/posts/ship-rtx-eval/</link><pubDate>Sun, 01 Mar 2026 13:51:44 -0800</pubDate><guid>https://stephenjayakar.com/posts/ship-rtx-eval/</guid><description>&lt;p>I started working on adding raytracing (RTX) to &lt;em>The Legend of Zelda: Ocarina of Time&lt;/em>. As in my other posts, I&amp;rsquo;m generally trying to drive the project via autonomous LLM agents.&lt;/p>
+&lt;p>First, before you jump in on this, know that they haven&amp;rsquo;t setup their Stripe integration yet. So even if you make a ton of $, this might be a scam LOL. So it&amp;rsquo;s not entirely worth it.&lt;/p></description></item><item><title>Can AI Agents build a graphics pipeline autonomously?</title><link>https://stephenjayakar.com/posts/ship-rtx-eval/</link><pubDate>Sun, 01 Mar 2026 13:51:44 -0800</pubDate><guid>https://stephenjayakar.com/posts/ship-rtx-eval/</guid><description>&lt;p>&lt;em>Update as of Jul 19, 2026: As of now, GPT 5.6 Sol can do this. Will post some results soon!&lt;/em>&lt;/p>
+&lt;hr>
+&lt;p>I started working on adding raytracing (RTX) to &lt;em>The Legend of Zelda: Ocarina of Time&lt;/em>. As in my other posts, I&amp;rsquo;m generally trying to drive the project via autonomous LLM agents.&lt;/p>
 &lt;p>I was hoping the project could be as simple as running Claude Opus 4.6 in a loop, saying &amp;ldquo;implement RTX into this engine, make no mistakes.&amp;rdquo; I got surprisingly far with this technique. However, I started noticing that it hit a wall, and that it seemed to be bottlenecked by its ability to understand the engine&amp;rsquo;s screenshot output, identify issues, and figure out what to work on next.&lt;/p></description></item><item><title>How to solve hard problems with AI</title><link>https://stephenjayakar.com/posts/ai-hard-problems/</link><pubDate>Sun, 22 Feb 2026 19:40:11 -0800</pubDate><guid>https://stephenjayakar.com/posts/ai-hard-problems/</guid><description>&lt;p>This is probably something I&amp;rsquo;ll be updating over time but has helped me a ton when kicking off long-running agents.&lt;/p>
 &lt;ol>
 &lt;li>Find a hard problem. Something like creating a browser, adding raytracing to an old game, adding VR to an old game, decompiling an old game (are you starting to see a trend?)&lt;/li>
