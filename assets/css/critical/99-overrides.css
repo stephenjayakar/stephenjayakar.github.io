@@ -128,3 +128,38 @@ a.link--external::after {
   color: var(--fg0);
   background: #bf5700;
 }
+
+/* Click-to-enlarge image preview (see assets/js/lightbox.js). */
+:where(.post-content, .post-header, .content-section) img:not(a img) {
+  cursor: zoom-in;
+}
+
+.lightbox {
+  width: 100vw;
+  max-width: none;
+  height: 100vh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-out;
+  outline: none;
+}
+
+.lightbox[open] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox::backdrop {
+  background: rgb(0 0 0 / 85%);
+}
+
+.lightbox__image {
+  max-width: 95vw;
+  max-height: 95vh;
+  object-fit: contain;
+  border: 0;
+}

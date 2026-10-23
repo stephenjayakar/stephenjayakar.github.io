@@ -1,0 +1,21 @@
+<!--
+  Add custom HTML at the end of <body>
+-->
+
+<!-- Click-to-enlarge image preview. Rendered statically so its classes land in
+     hugo_stats.json and survive PurgeCSS. -->
+<dialog id="lightbox" class="lightbox" aria-label="Image preview">
+  <img class="lightbox__image" alt="" />
+</dialog>
+
+{{ $jsBuildOptions := dict "target" "es6" }}
+{{ if hugo.IsProduction }}
+  {{ $jsBuildOptions = $jsBuildOptions | merge (dict "minify" "true") }}
+{{ end }}
+{{ $lightbox := resources.Get "js/lightbox.js" | js.Build $jsBuildOptions }}
+{{ if hugo.IsProduction }}
+  {{ $lightbox = $lightbox | fingerprint "sha512" }}
+{{ end }}
+{{/* prettier-ignore-start */}}
+<script src="{{ $lightbox.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $lightbox.Data.Integrity }}"{{ end }}></script>
+{{/* prettier-ignore-end */}}

@@ -32,6 +32,9 @@ enableGitInfo = true
 
 [build]
   useResourceCacheWhen = "fallback"
+  # PurgeCSS (production) keeps only selectors listed in hugo_stats.json.
+  [build.buildStats]
+    enable = true
 # [build]
 #   # Merge build config of the theme
 #   _merge = "deep"
